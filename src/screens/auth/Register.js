@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
     ScrollView,
     TouchableOpacity,
@@ -79,12 +79,12 @@ export default function ({ navigation }) {
                   color: '#800000',
                 }}
               >
-                Register
+                Please Register!
               </Text>
-              <Text>Email</Text>
+              <Text>Email Address:</Text>
               <TextInput
                 containerStyle={{ marginTop: 15 }}
-                placeholder="Enter your email"
+                placeholder="Enter an email address"
                 value={email}
                 autoCapitalize="none"
                 autoCompleteType="off"
@@ -93,10 +93,10 @@ export default function ({ navigation }) {
                 onChangeText={(text) => setEmail(text)}
               />
   
-              <Text style={{ marginTop: 15 }}>Password</Text>
+              <Text style={{ marginTop: 15 }}>Password:</Text>
               <TextInput
                 containerStyle={{ marginTop: 15 }}
-                placeholder="Enter your password"
+                placeholder="Enter a password"
                 value={password}
                 autoCapitalize="none"
                 autoCompleteType="off"
