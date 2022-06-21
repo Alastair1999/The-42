@@ -1,22 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
-import { AuthProvider } from './src/provider/AuthProvider';
+import React from "react";
+import AppNavigator from "./src/navigation/AppNavigator";
+import {AuthProvider} from "./src/provider/AuthProvider";
+import {ThemeProvider} from "react-native-rapi-ui";
+import {LogBox} from "react-native";
 
-export default function App() {
+export default function App(props) {
+  const images = [
+    require("./assets/icon.png"),
+    require ("./assets/splash.png"),
+    require ("./assets/favicon.png")
+  ];
+
+  React.useEffect(() => {
+    LogBox.ignoreLogs([
+
+    ]);
+  }, []);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ThemeProvider>
+      <AuthProvider>
+        <AppNavigator />
+      </AuthProvider>
+    </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
