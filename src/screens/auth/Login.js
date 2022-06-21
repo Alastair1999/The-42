@@ -59,7 +59,7 @@ export default function ({ navigation }) {
                   height: 220,
                   width: 220,
                 }}
-                source={require("../../../assets/app_logo/colour_logo.png")}
+                source={require("../../../assets/app-logo/zoomed-colour-logo.png")}
               />
             </View>
             <View
