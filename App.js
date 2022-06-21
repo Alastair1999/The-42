@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { AuthProvider } from './src/provider/AuthProvider';
 
 export default function App() {
   return (
