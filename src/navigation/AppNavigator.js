@@ -18,6 +18,12 @@ import Loading from "../utils/Loading";
 
 //Team Screens - Cinch Premiership
 import Aberdeen from "../screens/teams/Premiership/Aberdeen";
+import Celtic from "../screens/teams/Premiership/Celtic";
+import Hibernian from "../screens/teams/Premiership/Hibernian";
+import HeartOfMidlothian from "../screens/teams/Premiership/HeartOfMidlothian";
+
+//Bottom Tab Navigation Bar
+import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 
 
 //Firebase Details
@@ -60,9 +66,12 @@ const Main = () => {
             <MainStack.Screen name="Checklist" component={Checklist} />
             <MainStack.Screen name="Fixtures" component={Fixtures} />
             <MainStack.Screen name="LeagueTables" component={LeagueTables}/>
+            <MainStack.Screen name="HeartOfMidlothian" component={HeartOfMidlothian}/>
         </MainStack.Navigator>
     );
 };
+
+const Tab = createBottomTabNavigator
 
 export default ()=> {
     const auth = useContext(AuthContext);
