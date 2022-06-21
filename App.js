@@ -18,7 +18,7 @@ export default function App(props) {
   }, []);
 
   return (
-    <ThemeProvider>
+    <ThemeProvider images={images}>
       <AuthProvider>
         <AppNavigator />
       </AuthProvider>
