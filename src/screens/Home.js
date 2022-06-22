@@ -75,6 +75,24 @@ export default function ({ navigation }) {
               }}
             />
             <Button
+              text="View Fixtures"
+              onPress={() => {
+                navigation.navigate("Fixtures");
+              }}
+              style={{
+                marginTop: 10,
+              }}
+            />
+            <Button
+              text="View League Tables"
+              onPress={() => {
+                navigation.navigate("LeagueTables");
+              }}
+              style={{
+                marginTop: 10,
+              }}
+            />
+            <Button
               status="danger"
               text="Logout"
               onPress={() => {
