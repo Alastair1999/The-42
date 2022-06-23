@@ -336,6 +336,241 @@ export default function ({ navigation }) {
 
                         <Marker 
                             coordinate={{
+                                latitude: 57.4955,
+                                longitude: -4.2167,
+                            }}
+                            pinColor = "blue"
+                            //image ={require('../../assets/club-badges/inverness.png')}
+                        >
+                            <Callout>
+                                <Text>Inverness Caledonian Thistle</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 56.1360033508,
+                                longitude: -3.37868280709,
+                            }}
+                            pinColor = "#800000"
+                            //image ={require('../../assets/club-badges/kelty-hearts.png')}
+                        >
+                            <Callout>
+                                <Text>Kelty Hearts</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.6025325899,
+                                longitude: -4.50487131384,
+                            }}
+                            pinColor = "#0e00f7"
+                            //image ={require('../../assets/club-badges/kilmarnock.png')}
+                        >
+                            <Callout>
+                                <Text>Kilmarnock FC</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.88649,
+                                longitude: -3.52283,
+                            }}
+                            pinColor = "#ffcc00"
+                            //image ={require('../../assets/club-badges/livingston.png')}
+                        >
+                            <Callout>
+                                <Text>Livingston FC</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 56.7139,
+                                longitude: -2.4601,
+                            }}
+                            pinColor = "blue"
+                            //image ={require('../../assets/club-badges/montrose.png')}
+                        >
+                            <Callout>
+                                <Text>Montrose</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.7804,
+                                longitude: -3.9811,
+                            }}
+                            pinColor = "#fbba2d"
+                            //image ={require('../../assets/club-badges/motherwell.png')}
+                        >
+                            <Callout>
+                                <Text>Motherwell</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.8816,
+                                longitude: -4.2695,
+                            }}
+                            pinColor = "yellow"
+                            //image ={require('../../assets/club-badges/partick-thistle.png')}
+                        >
+                            <Callout>
+                                <Text>Partick Thistle</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 57.5116944,
+                                longitude: -1.7958472,
+                            }}
+                            pinColor = "blue"
+                            //image ={require('../../assets/club-badges/peterhead.png')}
+                        >
+                            <Callout>
+                                <Text>Peterhead FC</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.0709,
+                                longitude: -3.6263,
+                            }}
+                            pinColor = "blue"
+                            //image ={require('../../assets/club-badges/queen-of-the-south.png')}
+                        >
+                            <Callout>
+                                <Text>Queen of the South</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.8249,
+                                longitude: -4.2562,
+                            }}
+                            pinColor = "black"
+                            //image ={require('../../assets/club-badges/queens-park.png')}
+                        >
+                            <Callout>
+                                <Text>Queens Park</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 56.100301127,
+                                longitude: -3.16823856859,
+                            }}
+                            pinColor = "#02075d"
+                            //image ={require('../../assets/club-badges/raith-rovers.png')}
+                        >
+                            <Callout>
+                                <Text>Raith Rovers</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.8532,
+                                longitude: -4.3093,
+                            }}
+                            pinColor = "#1b458f"
+                            //image ={require('../../assets/club-badges/rangers.png')}
+                        >
+                            <Callout>
+                                <Text>Rangers</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 57.5959776581,
+                                longitude: -4.41998004913,
+                            }}
+                            pinColor = "#040957"
+                            //image ={require('../../assets/club-badges/ross-county.png')}
+                        >
+                            <Callout>
+                                <Text>Ross County</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 56.4096861,
+                                longitude: -3.4769278,
+                            }}
+                            pinColor = "#243f90"
+                            //image ={require('../../assets/club-badges/st-johnstone.png')}
+                        >
+                            <Callout>
+                                <Text>St Johnstone</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 55.8508,
+                                longitude: -4.4436,
+                            }}
+                            pinColor = "white"
+                            //image ={require('../../assets/club-badges/st-mirren.png')}
+                        >
+                            <Callout>
+                                <Text>St Mirren</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 56.0278,
+                                longitude: -3.8146,
+                            }}
+                            pinColor = "#893f45"
+                            //image ={require('../../assets/club-badges/stenhousemuir.png')}
+                        >
+                            <Callout>
+                                <Text>Stenhousemuir</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 56.1190,
+                                longitude: -3.9129,
+                            }}
+                            pinColor = "red"
+                            //image ={require('../../assets/club-badges/stirling-albion.png')}
+                        >
+                            <Callout>
+                                <Text>Stirling Albion</Text>
+                            </Callout>
+                        </Marker>
+
+                        <Marker 
+                            coordinate={{
+                                latitude: 54.9024,
+                                longitude: -5.0129,
+                            }}
+                            pinColor = "blue"
+                            //image ={require('../../assets/club-badges/stranraer.png')}
+                        >
+                            <Callout>
+                                <Text>Stranraer FC</Text>
+                            </Callout>
+                        </Marker>
+
+
+                        <Marker 
+                            coordinate={{
                                 latitude: 55.95694,
                                 longitude: -3.15861,
                             }}
