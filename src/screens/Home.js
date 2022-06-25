@@ -657,14 +657,8 @@ export default function ({ navigation }) {
 
 
 
-        <Section style={{ marginTop: 20 }}>
+        <Section>
           <SectionContent>
-            <Button
-              style={{ marginTop: 10 }}
-              text="View Scottish League Tables"
-              status="info"
-              onPress={() => Linking.openURL("https://rapi-ui.kikiding.space/")}
-            />
             <Button
               text="View Team Checklist"
               onPress={() => {
