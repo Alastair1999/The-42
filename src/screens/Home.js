@@ -37,6 +37,18 @@ export default function ({ navigation }) {
             setTheme("dark");
           }
         }}
+        leftContent={
+          <Ionicons
+          name={"log-out"}
+          size={20}
+          color={isDarkmode ? themeColor.white100 : themeColor.dark}
+          />
+        }
+        leftAction={() => {
+          signOut(auth);
+        }
+
+        }
       />
       <ScrollView>
       <View
@@ -657,35 +669,7 @@ export default function ({ navigation }) {
 
 
 
-        <Section>
-          <SectionContent>
-            <Button
-              text="View Team Checklist"
-              onPress={() => {
-                navigation.navigate("Checklist");
-              }}
-              style={{
-                marginTop: 10,
-              }}
-            />
-            <Button
-              text="View Fixtures"
-              onPress={() => {
-                navigation.navigate("Fixtures");
-              }}
-              style={{
-                marginTop: 10,
-              }}
-            />
-            <Button
-              text="View League Tables"
-              onPress={() => {
-                navigation.navigate("LeagueTables");
-              }}
-              style={{
-                marginTop: 10,
-              }}
-            />
+        
             <Button
               status="danger"
               text="Logout"
@@ -696,8 +680,6 @@ export default function ({ navigation }) {
                 marginTop: 10,
               }}
             />
-          </SectionContent>
-        </Section>
       </View>
       </ScrollView>
     </Layout>
@@ -714,7 +696,7 @@ const styles = StyleSheet.create({
 
   map: {
       width: 500,
-      height: 400.
+      height: 500.
     //width: Dimensions.get('window').width,
     //height: Dimensions.get('window').height,
   },
