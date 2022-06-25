@@ -24,6 +24,9 @@ import HeartOfMidlothian from "../screens/teams/Premiership/HeartOfMidlothian";
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
+import {themeColor, useTheme} from "react-native-rapi-ui";
+import BottomNavBarIcon from "../components/BottomNavBarIcon";
+import BottomNavBarText from "../components/BottomNavBarText";
 
 
 //Firebase Details
@@ -62,16 +65,77 @@ const Main = () => {
                 headerShown: false,
             }}
         >
-            <MainStack.Screen name = "Home" component={Home} />
-            <MainStack.Screen name="Checklist" component={Checklist} />
-            <MainStack.Screen name="Fixtures" component={Fixtures} />
-            <MainStack.Screen name="LeagueTables" component={LeagueTables}/>
-            <MainStack.Screen name="HeartOfMidlothian" component={HeartOfMidlothian}/>
+            <MainStack.Screen name ="MainTabs" component={MainTabs}/>
+            <MainStack.Screen name ="HeartOfMidlothian" component={HeartOfMidlothian} />
         </MainStack.Navigator>
     );
 };
 
-const Tab = createBottomTabNavigator
+const Tabs = createBottomTabNavigator();
+const MainTabs = () => {
+    const {isDarkmode} = useTheme();
+    return (
+        <Tabs.Navigator
+            screenOptions={{
+                headerShown: false,
+                tabBarStyle: {
+                    borderTopColor: isDarkmode ? themeColor.dark100: "#c0c0c0",
+                    backgroundColor: isDarkmode ? themeColor.dark200: "#ffffff",
+                },
+            }}
+        >
+            <Tabs.Screen
+                name="Home"
+                component={Home}
+                options={{
+                    tabBarLabel: ({focused}) => (
+                        <BottomNavBarText focused={focused} title="Home"/>
+                    ),
+                    tabBarIcon: ({focused}) => (
+                        <BottomNavBarIcon focused={focused} icon={"md-home"}/>
+                    ),
+                }}
+            />
+            <Tabs.Screen
+                name="Checklist"
+                component={Checklist}
+                options={{
+                    tabBarLabel: ({focused}) => (
+                        <BottomNavBarText focused={focused} title="Checklist"/>
+                    ),
+                    tabBarIcon: ({focused}) => (
+                        <BottomNavBarIcon focused={focused} icon={"md-list"}/>
+                    ),
+                }}
+            />
+            <Tabs.Screen
+                name="Fixtures"
+                component={Fixtures}
+                options={{
+                    tabBarLabel: ({focused}) => (
+                        <BottomNavBarText focused={focused} title="Fixtures"/>
+                    ),
+                    tabBarIcon: ({focused}) => (
+                        <BottomNavBarIcon focused={focused} icon={"calendar"}/>
+                    ),
+                }}
+            />
+            <Tabs.Screen
+                name="League Tables"
+                component={LeagueTables}
+                options={{
+                    tabBarLabel: ({focused}) => (
+                        <BottomNavBarText focused={focused} title="League Tables"/>
+                    ),
+                    tabBarIcon: ({focused}) => (
+                        <BottomNavBarIcon focused={focused} icon={"trophy"}/>
+                    ),
+                }}
+            />
+        </Tabs.Navigator>
+    );
+}
+
 
 export default ()=> {
     const auth = useContext(AuthContext);
@@ -80,7 +144,7 @@ export default ()=> {
         <NavigationContainer>
             {user == null && <Loading/>}
             {user == false && <Auth/>}
-            {user == true && <Main/>}
+            {user == true && <Main/>}  
         </NavigationContainer>
     )
 }
