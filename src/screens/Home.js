@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Linking, ScrollView, StyleSheet, Image } from "react-native";
+import { View, Linking, ScrollView, StyleSheet, Image, Dimensions, SafeAreaView } from "react-native";
 import { getAuth, signOut } from "firebase/auth";
 import {
   Layout,
@@ -51,15 +51,8 @@ export default function ({ navigation }) {
         }
       />
       <ScrollView>
-      <View
-        style={{
-          //flex: 0.5,
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-      
-        <Section style={{ marginTop: 10, width: 390 }}>
+      <SafeAreaView style={styles.container}>
+        <Section>
           <SectionContent>
             <Text fontWeight="bold" style={{}}>
               The number of stadiums visited is
@@ -67,7 +60,7 @@ export default function ({ navigation }) {
           </SectionContent>
         </Section>
 
-        <View style={styles.container}>
+        <View>
                     <MapView style={styles.map} 
                     initialRegion ={{
                         latitude: 55.953251,
@@ -666,21 +659,7 @@ export default function ({ navigation }) {
                         </Marker>
                     </MapView>
                 </View>
-
-
-
-        
-            <Button
-              status="danger"
-              text="Logout"
-              onPress={() => {
-                signOut(auth);
-              }}
-              style={{
-                marginTop: 10,
-              }}
-            />
-      </View>
+      </SafeAreaView>
       </ScrollView>
     </Layout>
   );
@@ -690,19 +669,19 @@ const styles = StyleSheet.create({
   container: {
     //flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    //alignItems: 'center',
     justifyContent: 'center',
   },
 
   map: {
-      width: 500,
-      height: 500.
-    //width: Dimensions.get('window').width,
-    //height: Dimensions.get('window').height,
+      //width: 500,
+      //height: 500.
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
   },
 
   clubBadge: {
-      width: 35,
+      width: 38,
       height: 38,
   },
 
