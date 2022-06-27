@@ -42,10 +42,6 @@ export default function ({ navigation }) {
       />
       <View style={styles.container}>
         <ScrollView>
-        
-
-
-
         <View style={{
           alignItems: "center",
           justifyContent: "center",
@@ -207,6 +203,10 @@ export default function ({ navigation }) {
       </View>
             </ScrollView>
           </View>
+
+
+
+
         
     </Layout>
   );
