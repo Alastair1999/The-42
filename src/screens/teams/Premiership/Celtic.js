@@ -34,7 +34,7 @@ export default function ({ navigation }) {
             <ScrollView>
                 <View style={styles.container}>
                     <View style={styles.header}>
-                        <Text style={styles.clubTitle}>Celtic</Text>
+                        <Text style={styles.clubTitle}>Celtic </Text>
                         <Image style={styles.clubBadgeFormat}
                         resizeMode="contain"
                         source={require("../../../../assets/club-badges/celtic.png")}/>
@@ -75,10 +75,10 @@ export default function ({ navigation }) {
                     </View>
 
                     <View>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/@55.9385312,-3.2329051,16.27z")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/place/Celtic+Park/@55.849696,-4.2077314,17z/data=!3m1!4b1!4m5!3m4!1s0x4888414f6436db0f:0xf1778c849701d24!8m2!3d55.849696!4d-4.2055427")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/celtic_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -88,21 +88,21 @@ export default function ({ navigation }) {
                             text="Tickets"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/tickets-and-hospitality/matchday/upcoming-games")}
+                            onPress={() => Linking.openURL("https://www.celticfc.com/tickets")}
                         />
                         <Button 
                             style={styles.buttonStyle}
                             text="Fixtures"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/fixtures/first-team/fixtures-and-results")}
+                            onPress={() => Linking.openURL("https://www.celticfc.com/fixtures")}
                         />
                         <Button 
                             style={styles.buttonStyle}
                             text="Players"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/squads/first-team/playing-squad")}
+                            onPress={() => Linking.openURL("https://www.celticfc.com/teams")}
                         />
                     </View>
    
