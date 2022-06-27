@@ -82,7 +82,7 @@ export default function ({ navigation }) {
 
         <Text
           onPress={() => {
-            navigation.navigate("Dundee United");
+            navigation.navigate("DundeeUnited");
           }}
           fontWeight="regular"
           style={{
