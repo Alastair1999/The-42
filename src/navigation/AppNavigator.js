@@ -67,6 +67,7 @@ const Main = () => {
         >
             <MainStack.Screen name ="MainTabs" component={MainTabs}/>
             <MainStack.Screen name ="HeartOfMidlothian" component={HeartOfMidlothian} />
+            <MainStack.Screen name ="Aberdeen" component={Aberdeen} />
         </MainStack.Navigator>
     );
 };

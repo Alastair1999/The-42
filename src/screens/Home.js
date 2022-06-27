@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Linking, ScrollView, StyleSheet, Image, Dimensions, SafeAreaView } from "react-native";
+import { View, Linking, ScrollView, StyleSheet, Image, Dimensions, SafeAreaView, TouchableOpacity } from "react-native";
 import { getAuth, signOut } from "firebase/auth";
 import {
   Layout,
@@ -40,7 +40,7 @@ export default function ({ navigation }) {
         leftContent={
           <Ionicons
           name={"log-out"}
-          size={20}
+          size={24}
           color={isDarkmode ? themeColor.white100 : themeColor.dark}
           />
         }
@@ -78,8 +78,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/aberdeen.png')}
                         >
                             <Image source={require("../../assets/club-badges/aberdeen.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Aberdeen</Text>
+                            <Callout style={styles.calloutStyle}>
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Aberdeen");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("HeartOfMidlothian");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -373,8 +390,25 @@ export default function ({ navigation }) {
                             //image= {require('../../assets/club-badges/hearts.png')} style={{width: 35, height: 35}}
                         >
                             <Image source={require("../../assets/club-badges/hearts.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Heart of Midlothian</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Heart of Midlothian {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("HeartOfMidlothian");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("HeartOfMidlothian");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -684,5 +718,15 @@ const styles = StyleSheet.create({
       width: 38,
       height: 38,
   },
+
+  calloutStyle: {
+      width: 130,
+      height: 130,
+  },
+
+  calloutTitle: {
+    fontWeight: "bold",
+    textDecorationLine: "underline",
+  }
 
 });

@@ -6,6 +6,7 @@ import {
     ScrollView,
     TouchableOpacity,
     Linking,
+    Dimensions
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import {
@@ -167,7 +168,8 @@ const styles = StyleSheet.create({
     stadiumPhoto: {
         alignSelf: 'center',
         height: 300,
-        width: 300,
+        //width: 300,
+        width: Dimensions.get('window').width,
     },
 
     buttonBackGround: {
