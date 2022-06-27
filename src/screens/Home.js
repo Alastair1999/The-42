@@ -207,8 +207,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/celtic.png')}
                         >
                             <Image source={require("../../assets/club-badges/celtic.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Celtic</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Celtic {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Celtic");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Celtic");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 

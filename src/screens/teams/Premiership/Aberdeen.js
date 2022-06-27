@@ -52,7 +52,17 @@ export default function ({ navigation }) {
 
                     <View style={styles.generalInformation}>
                         <Text style={styles.generalInfoText}> Main Rival - </Text>
-                        <Text style={styles.generalInfoText}> Rangers / Hearts </Text>
+                        {/* Heart of Midlothian is just an example of a rival */}
+                        <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("HeartOfMidlothian");
+                                }}
+                              >
+                                <Text>
+                                  Heart of Midlothian {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                        
                     </View>
 
                     <View style={styles.generalInformation}>
