@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, ScrollView, StyleSheet } from "react-native";
 import {
   Layout,
@@ -8,8 +8,6 @@ import {
   useTheme,
 } from "react-native-rapi-ui";
 import { Ionicons } from "@expo/vector-icons";
-
-
 
 export default function ({ navigation }) {
   const { isDarkmode, setTheme } = useTheme();
@@ -42,6 +40,9 @@ export default function ({ navigation }) {
       />
       <View style={styles.container}>
         <ScrollView>
+          
+          
+
         <View style={{
           alignItems: "center",
           justifyContent: "center",
@@ -216,7 +217,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 40,
-    backgroundColor: 'red',
+    //backgroundColor: 'red',
     justifyContent: 'space-around',
   },
 

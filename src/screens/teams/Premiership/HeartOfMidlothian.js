@@ -6,7 +6,7 @@ import {
     ScrollView,
     TouchableOpacity,
     Linking,
-    Dimensions
+    Dimensions,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import {
@@ -79,26 +79,27 @@ export default function ({ navigation }) {
                     
                     <View style={styles.buttonBackGround}>
                         <Button 
-                            style={styles.buttonStyle}
                             text="Tickets"
                             color="#800000"
                             width={100}
                             onPress={() => Linking.openURL("https://www.heartsfc.co.uk/tickets-and-hospitality/matchday/upcoming-games")}
                         />
                         <Button 
-                            style={styles.buttonStyle}
                             text="Fixtures"
                             color="#800000"
                             width={100}
                             onPress={() => Linking.openURL("https://www.heartsfc.co.uk/fixtures/first-team/fixtures-and-results")}
                         />
                         <Button 
-                            style={styles.buttonStyle}
                             text="Players"
                             color="#800000"
                             width={100}
                             onPress={() => Linking.openURL("https://www.heartsfc.co.uk/squads/first-team/playing-squad")}
                         />
+                    </View>
+
+                    <View style={styles.submissionsLink}>
+                        <Text style={styles.clubTitle}>Click to see previous visit submissions!</Text>
                     </View>
    
                 </View>
@@ -109,7 +110,8 @@ export default function ({ navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-        //flex: 1,
+        width: Dimensions.get("window").width,
+        height: Dimensions.get("window").height,
         paddingTop: 20,
         backgroundColor: '#fff',
         //justifyContent: 'space-around',
@@ -125,7 +127,6 @@ const styles = StyleSheet.create({
     clubTitle: {
         fontSize: 20,
         color: '#800000',
-        //backgroundColor: 'blue'
     },
 
     clubBadgeFormat: {
@@ -136,10 +137,8 @@ const styles = StyleSheet.create({
     clubLocation: {
         flexDirection: 'row',
         height: 60,
-        //paddingTop: 20,
         backgroundColor: '#ECECEC',
         alignItems: 'center',
-        //flexWrap: 'wrap',
         justifyContent: 'space-evenly',
     },
 
@@ -174,15 +173,16 @@ const styles = StyleSheet.create({
 
     buttonBackGround: {
         flexDirection: 'row',
-        height: 60,
+        height: 65,
         backgroundColor: '#fff',
         alignItems: 'center',
         //flexWrap: 'wrap',
         justifyContent: 'space-evenly',
+        paddingTop: 20,
     },
 
-    buttonStyle: {
-        //flexDirection: 'row'
+    submissionsLink: {
+        paddingTop:20,
         
 
     }
