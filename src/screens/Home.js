@@ -438,8 +438,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/hibernian.png')}
                         >
                             <Image source={require("../../assets/club-badges/hibernian.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Hibernian</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Hibernian {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Hibernian");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Hibernian");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -744,6 +761,7 @@ const styles = StyleSheet.create({
   calloutTitle: {
     fontWeight: "bold",
     textDecorationLine: "underline",
+    fontSize: 18,
   }
 
 });
