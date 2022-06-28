@@ -21,6 +21,7 @@ import Aberdeen from "../screens/teams/Premiership/Aberdeen";
 import Celtic from "../screens/teams/Premiership/Celtic";
 import Hibernian from "../screens/teams/Premiership/Hibernian";
 import HeartOfMidlothian from "../screens/teams/Premiership/HeartOfMidlothian";
+import DundeeUnited from "../screens/teams/Premiership/DundeeUnited";
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -70,6 +71,8 @@ const Main = () => {
             <MainStack.Screen name ="Hibernian" component={Hibernian} />
             <MainStack.Screen name ="Aberdeen" component={Aberdeen} />
             <MainStack.Screen name="Celtic" component={Celtic} />
+            <MainStack.Screen name="DundeeUnited" component={DundeeUnited} />
+            
         </MainStack.Navigator>
     );
 };
