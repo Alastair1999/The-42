@@ -15,7 +15,6 @@ import { Ionicons } from "@expo/vector-icons";
 import MapView, { Callout, Marker } from "react-native-maps";
 
 
-
 export default function ({ navigation }) {
   const { isDarkmode, setTheme } = useTheme();
   const auth = getAuth();
@@ -280,8 +279,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/dundee-united.png')}
                         >
                             <Image source={require("../../assets/club-badges/dundee-united.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Dundee United</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Dundee United{"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("DundeeUnited");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("DundeeUnited");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 

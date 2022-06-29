@@ -18,7 +18,7 @@ import {
     SectionContent,
 } from "react-native-rapi-ui";
 
-export default function ({ navigation }) {
+export default function DundeeUnited ({ navigation }) {
     return (
         <Layout>
             <TopNav
@@ -34,30 +34,28 @@ export default function ({ navigation }) {
             <ScrollView>
                 <View style={styles.container}>
                     <View style={styles.header}>
-                        <Text style={styles.clubTitle}>Dundee United</Text>
+                        <Text style={styles.clubTitle}>Dundee United </Text>
                         <Image style={styles.clubBadgeFormat}
                         resizeMode="contain"
                         source={require("../../../../assets/club-badges/dundee-united.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'center',borderWidth:1, padding:20,}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,}}>
                         <View style={styles.leftView}>
-                            <Text>Year Founded-</Text>
-                            <Text>Main Rival-</Text>
-                            <Text>Stadium Name-</Text>
-                            <Text>Capacity-</Text>
+                            <Text style={styles.informationText}>City / Region -{"\n"}</Text>
+                            <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
+                            <Text style={styles.informationText}>Main Rival -{"\n"}</Text>
+                            <Text style={styles.informationText}>Stadium Name -{"\n"}</Text>
+                            <Text style={styles.informationText}>Capacity -</Text>
                         </View>
                         <View style={styles.rightView}>
-                            <Text>1909</Text>
-                            <Text>Dundee</Text>
-                            <Text>Tannadice</Text>
+                            <Text>Dundee{"\n"}</Text>
+                            <Text>1909{"\n"}</Text>
+                            <Text>Dundee FC{"\n"}</Text>
+                            <Text>Tannadice{"\n"}</Text>
                             <Text>14,223</Text>
                         </View>
                     </View>
-
-                    
-
-                    
 
                     <View style={styles.stadiumInfo}>
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
@@ -76,26 +74,25 @@ export default function ({ navigation }) {
                             text="Tickets"
                             color="orange"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/tickets-and-hospitality/matchday/upcoming-games")}
+                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/tickets")}
                         />
                         <Button 
                             text="Fixtures"
                             color="orange"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/fixtures/first-team/fixtures-and-results")}
+                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/matches/fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="orange"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/squads/first-team/playing-squad")}
+                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/team/first-team")}
                         />
                     </View>
 
-                    <View style={styles.submissionsLink}>
-                        <Text style={styles.clubTitle}>Click to see previous visit submissions!</Text>
+                    <View style={{padding:20}}>
+                        <Text style={{textDecorationLine:'underline', fontSize:20}}>Click to see previous visit submissions!</Text>
                     </View>
-   
                 </View>
             </ScrollView>
         </Layout>
@@ -109,8 +106,7 @@ const styles = StyleSheet.create({
         paddingTop: 10,
         backgroundColor: '#fff',
         borderWidth:1,
-        //justifyContent: 'space-around',
-        //alignItems: 'center',
+        flex:1,
     },
 
     header: {
@@ -128,24 +124,19 @@ const styles = StyleSheet.create({
     clubBadgeFormat: {
         width: 35,
         height: 38,
-        //alignContent: 'center',
     },
 
     leftView: {
-        //backgroundColor: 'blue',
-        //width: 200,
-        //justifyContent: 'center',
         alignItems: "left",
-        //alignSelf: 'left',
-
     },
 
     rightView:{
-        //backgroundColor: 'red',
-        //width: 200,
-        //textAlign:"center",
         alignItems: 'right',
         
+    },
+
+    informationText :{
+        textDecorationLine:'underline',
     },
 
     clubLocation: {
@@ -164,13 +155,12 @@ const styles = StyleSheet.create({
     stadiumInfo: {
         backgroundColor: '#ECECEC',
         flexDirection: 'column',
-        padding:20,
+        padding:10,
     },
 
     stadiumPhoto: {
         alignSelf: 'center',
         height: 300,
-        //width: 300,
         width: Dimensions.get('window').width,
         borderWidth: 1,
     },
@@ -180,19 +170,7 @@ const styles = StyleSheet.create({
         height: 65,
         backgroundColor: '#fff',
         alignItems: 'center',
-        //flexWrap: 'wrap',
         justifyContent: 'space-evenly',
-        paddingTop: 20,
+        paddingTop: 10,
     },
-
-    submissionsLink: {
-        paddingTop:20,
-        
-
-    },
-
-    informationText: {
-        backgroundColor:'red',
-        //textAlign:"left",
-    }
  });
