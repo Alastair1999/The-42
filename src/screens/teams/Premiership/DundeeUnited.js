@@ -90,7 +90,7 @@ export default function DundeeUnited ({ navigation }) {
                         />
                     </View>
 
-                    <View style={{padding:20}}>
+                    <View style={{padding:16, borderBottomWidth:1,}}>
                         <Text style={{textDecorationLine:'underline', fontSize:20}}>Click to see previous visit submissions!</Text>
                     </View>
                 </View>
@@ -171,6 +171,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'space-evenly',
-        paddingTop: 10,
+        paddingTop: 16,
     },
  });
