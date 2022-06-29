@@ -112,6 +112,9 @@ export default function ({ navigation }) {
         >Hibernian</Text>
 
         <Text
+          onPress={() => {
+            navigation.navigate("Kilmarnock");
+          }}
           fontWeight="regular"
           style={{
             color: 'black',
