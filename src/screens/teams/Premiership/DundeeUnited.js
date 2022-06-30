@@ -40,7 +40,7 @@ export default function DundeeUnited ({ navigation }) {
                         source={require("../../../../assets/club-badges/dundee-united.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10, backgroundColor:'orange'}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     },
 
     stadiumInfo: {
-        backgroundColor: '#ECECEC',
+        backgroundColor: 'white',
         flexDirection: 'column',
         padding:10,
     },
@@ -163,6 +163,7 @@ const styles = StyleSheet.create({
         height: 300,
         width: Dimensions.get('window').width,
         borderWidth: 1,
+        backgroundColor:'orange'
     },
 
     buttonBackGround: {

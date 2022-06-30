@@ -735,8 +735,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/st-johnstone.png')}
                         >
                             <Image source={require("../../assets/club-badges/st-johnstone.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>St Johnstone</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>St Johnstone {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("StJohnstone");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("StJohnstone");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 

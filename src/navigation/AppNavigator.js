@@ -26,7 +26,9 @@ import Kilmarnock from "../screens/teams/Premiership/Kilmarnock";
 import Livingston from "../screens/teams/Premiership/Livingston";
 import Motherwell from "../screens/teams/Premiership/Motherwell";
 import Rangers from "../screens/teams/Premiership/Rangers";
+import RossCounty from "../screens/teams/Premiership/RossCounty";
 import StJohnstone from "../screens/teams/Premiership/StJohnstone";
+
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -81,7 +83,9 @@ const Main = () => {
             <MainStack.Screen name="Livingston" component={Livingston} />
             <MainStack.Screen name="Motherwell" component={Motherwell} />
             <MainStack.Screen name="Rangers" component={Rangers} />
+            <MainStack.Screen name="RossCounty" component={RossCounty} />
             <MainStack.Screen name="StJohnstone" component={StJohnstone} />
+
             
         </MainStack.Navigator>
     );

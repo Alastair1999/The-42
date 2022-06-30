@@ -40,11 +40,11 @@ export default function StJohnstone ({ navigation }) {
                         source={require("../../../../assets/club-badges/st-johnstone.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"#1b458f"}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"#243f90"}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
-                            <Text style={styles.informationText}>Main Rival -{"\n"}</Text>
+                            <Text style={styles.informationText}>Main Rival -{"\n"} {"\n"}</Text>
                             <Text style={styles.informationText}>Stadium Name -{"\n"}</Text>
                             <Text style={styles.informationText}>Capacity -</Text>
                         </View>
@@ -57,7 +57,7 @@ export default function StJohnstone ({ navigation }) {
                                 }}
                               >
                                 <Text style={{color:'white'}}>
-                                  Dundee
+                                  Dundee 
                                 </Text>
                               </TouchableOpacity>
                               <TouchableOpacity
@@ -78,7 +78,7 @@ export default function StJohnstone ({ navigation }) {
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View style={{backgroundColor:"#1b458f"}}>
+                    <View style={{backgroundColor:"#243f90"}}>
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/@55.9385312,-3.2329051,16.27z")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
@@ -89,19 +89,19 @@ export default function StJohnstone ({ navigation }) {
                     <View style={styles.buttonBackGround}>
                         <Button 
                             text="Tickets"
-                            color="#1b458f"
+                            color="#243f90"
                             width={100}
                             onPress={() => Linking.openURL("https://www.tickets.motherwellfc.co.uk")}
                         />
                         <Button 
                             text="Fixtures"
-                            color="#1b458f"
+                            color="#243f90"
                             width={100}
                             onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/fixtures-and-results/first-team/")}
                         />
                         <Button 
                             text="Players"
-                            color="#1b458f"
+                            color="#243f90"
                             width={100}
                             onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/squad/first-team/")}
                         />
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
 
     clubTitle: {
         fontSize: 20,
-        color: '#1b458f',
+        color: '#243f90',
     },
 
     clubBadgeFormat: {

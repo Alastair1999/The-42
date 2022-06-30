@@ -173,7 +173,7 @@ export default function ({ navigation }) {
 
         <Text
           onPress={() => {
-            navigation.navigate("Ross County");
+            navigation.navigate("RossCounty");
           }}
           fontWeight="regular"
           style={{
