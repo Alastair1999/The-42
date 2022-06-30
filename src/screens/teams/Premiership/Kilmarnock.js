@@ -18,7 +18,7 @@ import {
     SectionContent,
 } from "react-native-rapi-ui";
 
-export default function DundeeUnited ({ navigation }) {
+export default function Kilmarnock ({ navigation }) {
     return (
         <Layout>
             <TopNav

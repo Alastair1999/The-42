@@ -122,18 +122,24 @@ export default function ({ navigation }) {
         >Kilmarnock FC</Text>
 
         <Text
+          onPress={() => {
+            navigation.navigate("Livingston");
+          }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Livingston FC</Text>
+        >Livingston</Text>
 
         <Text
+          onPress={() => {
+            navigation.navigate("Motherwell");
+          }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Motherwell FC</Text>
+        >Motherwell</Text>
 
         <Text
           onPress={() => {
@@ -146,6 +152,9 @@ export default function ({ navigation }) {
         >Rangers</Text>
 
         <Text
+          onPress={() => {
+            navigation.navigate("RossCounty");
+          }}
           fontWeight="regular"
           style={{
             color: 'black',
@@ -153,6 +162,9 @@ export default function ({ navigation }) {
         >Ross County</Text>
 
         <Text
+          onPress={() => {
+            navigation.navigate("StJohnstone");
+          }}
           fontWeight="regular"
           style={{
             color: 'black',
@@ -160,11 +172,14 @@ export default function ({ navigation }) {
         >St Johnstone</Text>
 
         <Text
+          onPress={() => {
+            navigation.navigate("Ross County");
+          }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >St Mirren</Text>
+        >Ross County</Text>
       </View>
 
       <View style={{
