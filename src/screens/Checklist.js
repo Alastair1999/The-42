@@ -173,13 +173,13 @@ export default function ({ navigation }) {
 
         <Text
           onPress={() => {
-            navigation.navigate("RossCounty");
+            navigation.navigate("StMirren");
           }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Ross County</Text>
+        >St Mirren</Text>
       </View>
 
       <View style={{

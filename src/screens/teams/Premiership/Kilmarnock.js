@@ -62,7 +62,7 @@ export default function Kilmarnock ({ navigation }) {
                     </View>
 
                     <View>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/@55.9385312,-3.2329051,16.27z")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Kilmarnock+Football+Club+Shop/@55.6045741,-4.5116419,17z/data=!3m1!4b1!4m5!3m4!1s0x48883354d2cac925:0xf8b360af3e77e15a!8m2!3d55.6045741!4d-4.5094532")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
                         source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>

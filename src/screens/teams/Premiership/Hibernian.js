@@ -80,7 +80,7 @@ export default function ({ navigation }) {
                     </View>
 
                     <View>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/@55.9385312,-3.2329051,16.27z")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Easter+Road+(Hibernian+FC)/@55.9617787,-3.1674797,17z/data=!3m1!4b1!4m5!3m4!1s0x4887b872b402abff:0xb53c8d9bc14f7bda!8m2!3d55.9617787!4d-3.165291")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
                         source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>

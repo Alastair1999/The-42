@@ -28,6 +28,7 @@ import Motherwell from "../screens/teams/Premiership/Motherwell";
 import Rangers from "../screens/teams/Premiership/Rangers";
 import RossCounty from "../screens/teams/Premiership/RossCounty";
 import StJohnstone from "../screens/teams/Premiership/StJohnstone";
+import StMirren from "../screens/teams/Premiership/StMirren";
 
 
 //Bottom Tab Navigation Bar
@@ -85,8 +86,7 @@ const Main = () => {
             <MainStack.Screen name="Rangers" component={Rangers} />
             <MainStack.Screen name="RossCounty" component={RossCounty} />
             <MainStack.Screen name="StJohnstone" component={StJohnstone} />
-
-            
+            <MainStack.Screen name="StMirren" component={StMirren} />
         </MainStack.Navigator>
     );
 };

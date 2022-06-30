@@ -6,7 +6,7 @@ import {
     ScrollView,
     TouchableOpacity,
     Linking,
-    Dimensions
+    Dimensions,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import {
@@ -18,7 +18,7 @@ import {
     SectionContent,
 } from "react-native-rapi-ui";
 
-export default function ({ navigation }) {
+export default function Aberdeen ({ navigation }) {
     return (
         <Layout>
             <TopNav
@@ -34,53 +34,43 @@ export default function ({ navigation }) {
             <ScrollView>
                 <View style={styles.container}>
                     <View style={styles.header}>
-                        <Text style={styles.clubTitle}>Aberdeen FC</Text>
+                        <Text style={styles.clubTitle}>Aberdeen </Text>
                         <Image style={styles.clubBadgeFormat}
                         resizeMode="contain"
                         source={require("../../../../assets/club-badges/aberdeen.png")}/>
                     </View>
 
-                    <View style={styles.clubLocation}>
-                        <Text style={styles.location}> City / Area </Text>
-                        <Text style={styles.locationText}> Aberdeen </Text>
-                    </View>
-
-                    <View style={styles.generalInformation}>
-                        <Text style={styles.generalInfoText}> League -</Text>
-                        <Text style={styles.generalInfoText}> Cinch Premiership</Text>
-                    </View>
-
-                    <View style={styles.generalInformation}>
-                        <Text style={styles.generalInfoText}> Main Rival - </Text>
-                        {/* Heart of Midlothian is just an example of a rival */}
-                        <TouchableOpacity
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"red"}}>
+                        <View style={styles.leftView}>
+                            <Text style={styles.informationText}>City / Region -{"\n"}</Text>
+                            <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
+                            <Text style={styles.informationText}>Main Rival -{"\n"}</Text>
+                            <Text style={styles.informationText}>Stadium Name -{"\n"}</Text>
+                            <Text style={styles.informationText}>Capacity -</Text>
+                        </View>
+                        <View style={styles.rightView}>
+                            <Text style={{color:'white'}}>Aberdeen{"\n"}</Text>
+                            <Text style={{color:'white'}}>1903{"\n"}</Text>
+                            <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("HeartOfMidlothian");
+                                  navigation.navigate("Rangers");
                                 }}
                               >
-                                <Text>
-                                  Heart of Midlothian {"\n"}
+                                <Text style={{color:'white'}}>
+                                  Rangers{"\n"}
                                 </Text>
                               </TouchableOpacity>
-                        
-                    </View>
-
-                    <View style={styles.generalInformation}>
-                        <Text style={styles.generalInfoText}> Stadium Name - </Text>
-                        <Text style={styles.generalInfoText}> Pittodrie</Text>
-                    </View>
-
-                    <View style={styles.generalInformation}>
-                        <Text style={styles.generalInfoText}> Capacity -</Text>
-                        <Text style={styles.generalInfoText}> 22,199</Text>
+                            <Text style={{color:'white'}}>Pittodrie{"\n"}</Text>
+                            <Text style={{color:'white'}}>20,961</Text>
+                        </View>
                     </View>
 
                     <View style={styles.stadiumInfo}>
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/@55.9385312,-3.2329051,16.27z")}>
+                    <View style={{backgroundColor:"red"}}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Aberdeen+Football+Club/@57.1597222,-2.0907998,17z/data=!3m2!4b1!5s0x48840e1325333e63:0xd1f93de75d906043!4m5!3m4!1s0x48840e133afd6cb5:0xa07649422c25f7e5!8m2!3d57.1597222!4d-2.0886111")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
                         source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
@@ -89,28 +79,28 @@ export default function ({ navigation }) {
                     
                     <View style={styles.buttonBackGround}>
                         <Button 
-                            style={styles.buttonStyle}
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/tickets-and-hospitality/matchday/upcoming-games")}
+                            onPress={() => Linking.openURL("https://www.afc.co.uk/tickets/")}
                         />
                         <Button 
-                            style={styles.buttonStyle}
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/fixtures/first-team/fixtures-and-results")}
+                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
                         />
                         <Button 
-                            style={styles.buttonStyle}
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/squads/first-team/playing-squad")}
+                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
                         />
                     </View>
-   
+
+                    <View style={{padding:16, borderBottomWidth:1,}}>
+                        <Text style={{textDecorationLine:'underline', fontSize:20}}>Click to see previous visit submissions!</Text>
+                    </View>
                 </View>
             </ScrollView>
         </Layout>
@@ -119,23 +109,24 @@ export default function ({ navigation }) {
 
 const styles = StyleSheet.create({
     container: {
-        //flex: 1,
-        paddingTop: 20,
+        width: Dimensions.get("window").width,
+        height: Dimensions.get("window").height,
+        paddingTop: 10,
         backgroundColor: '#fff',
-        //justifyContent: 'space-around',
-        //alignItems: 'center',
+        borderWidth:1,
+        flex:1,
     },
 
     header: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
+        alignSelf: 'center',
     },
 
     clubTitle: {
         fontSize: 20,
         color: 'red',
-        //backgroundColor: 'blue'
     },
 
     clubBadgeFormat: {
@@ -143,13 +134,25 @@ const styles = StyleSheet.create({
         height: 38,
     },
 
+    leftView: {
+        alignItems: "left",
+    },
+
+    rightView:{
+        alignItems: 'right',
+        
+    },
+
+    informationText :{
+        textDecorationLine:'underline',
+        color:'white',
+    },
+
     clubLocation: {
         flexDirection: 'row',
         height: 60,
-        //paddingTop: 20,
         backgroundColor: '#ECECEC',
         alignItems: 'center',
-        //flexWrap: 'wrap',
         justifyContent: 'space-evenly',
     },
 
@@ -158,42 +161,25 @@ const styles = StyleSheet.create({
         textAlignVertical: 'center',
     },
 
-    generalInformation: {
-        flexDirection: 'row',
-        height: 30,
-        alignItems: 'center',
-        backgroundColor: '#fff',
-        justifyContent: 'space-evenly',
-    },
-
-    generalInfoText: {
-        fontSize: 15,
-    },
-
     stadiumInfo: {
-        backgroundColor: '#ECECEC',
+        backgroundColor: 'white',
         flexDirection: 'column',
+        padding:10,
     },
 
     stadiumPhoto: {
         alignSelf: 'center',
         height: 300,
-        //width: 300,
         width: Dimensions.get('window').width,
+        borderWidth: 1,
     },
 
     buttonBackGround: {
         flexDirection: 'row',
-        height: 60,
+        height: 65,
         backgroundColor: '#fff',
         alignItems: 'center',
-        //flexWrap: 'wrap',
         justifyContent: 'space-evenly',
+        paddingTop: 16,
     },
-
-    buttonStyle: {
-        //flexDirection: 'row'
-        
-
-    }
- })
+ });

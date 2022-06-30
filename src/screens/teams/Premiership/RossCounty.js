@@ -70,7 +70,7 @@ export default function RossCounty ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"#1b458f"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.com/maps/@55.9385312,-3.2329051,16.27z")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Ross+County+Football+Club/@57.5960634,-4.4210634,17z/data=!3m1!4b1!4m5!3m4!1s0x488fa046d43f6aa7:0xe10ec3936401a3dd!8m2!3d57.5960634!4d-4.4188747")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
                         source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
