@@ -40,7 +40,7 @@ export default function Livingston ({ navigation }) {
                         source={require("../../../../assets/club-badges/livingston.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10, backgroundColor:"#ffcc00"}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
@@ -61,7 +61,7 @@ export default function Livingston ({ navigation }) {
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View>
+                    <View style={{backgroundColor:"#ffcc00"}}>
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tony+Macaroni+Arena/@55.8859504,-3.5240793,17z/data=!3m1!4b1!4m5!3m4!1s0x4887d95536a94f51:0x958c167fed80ad39!8m2!3d55.8859504!4d-3.5218906")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     },
 
     stadiumInfo: {
-        backgroundColor: '#ECECEC',
+        backgroundColor: 'white',
         flexDirection: 'column',
         padding:10,
     },

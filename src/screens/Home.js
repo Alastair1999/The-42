@@ -484,10 +484,30 @@ export default function ({ navigation }) {
                             pinColor = "blue"
                             //image ={require('../../assets/club-badges/inverness.png')}
                         >
-                            <Callout>
+                            
                             <Image source={require("../../assets/club-badges/inverness.png")} style={{height: 25, width: 25}}/>
-                                <Text>Inverness Caledonian Thistle</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Inverness Caley Thistle {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Hibernian");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Hibernian");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
+                        
+                            
                         </Marker>
 
                         <Marker 
@@ -721,8 +741,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/ross-county.png')}
                         >
                             <Image source={require("../../assets/club-badges/ross-county.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Ross County</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Ross County {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("RossCounty");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("RossCounty");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -766,8 +803,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/st-mirren.png')}
                         >
                             <Image source={require("../../assets/club-badges/st-mirren.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>St Mirren</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>St Mirren {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("StMirren");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("StMirren");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 

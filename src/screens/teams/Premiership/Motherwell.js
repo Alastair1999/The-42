@@ -40,7 +40,7 @@ export default function Motherwell ({ navigation }) {
                         source={require("../../../../assets/club-badges/motherwell.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10, backgroundColor:"#fbba2d"}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
@@ -61,7 +61,7 @@ export default function Motherwell ({ navigation }) {
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View>
+                    <View style={{backgroundColor:"#fbba2d"}}>
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Motherwell+Football+Club/@55.7809173,-3.983193,17z/data=!3m1!4b1!4m5!3m4!1s0x488814ab61b31c43:0xc82f647f2d0c0e5b!8m2!3d55.7809169!4d-3.980991")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     },
 
     stadiumInfo: {
-        backgroundColor: '#ECECEC',
+        backgroundColor: 'white',
         flexDirection: 'column',
         padding:10,
     },

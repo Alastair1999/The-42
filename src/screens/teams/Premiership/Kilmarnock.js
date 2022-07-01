@@ -40,7 +40,7 @@ export default function Kilmarnock ({ navigation }) {
                         source={require("../../../../assets/club-badges/kilmarnock.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:'blue'}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
@@ -49,11 +49,11 @@ export default function Kilmarnock ({ navigation }) {
                             <Text style={styles.informationText}>Capacity -</Text>
                         </View>
                         <View style={styles.rightView}>
-                            <Text>Ayrshire{"\n"}</Text>
-                            <Text>1869{"\n"}</Text>
-                            <Text>Ayr United{"\n"}</Text>
-                            <Text>Rugby Park{"\n"}</Text>
-                            <Text>17,889</Text>
+                            <Text style={{color:'white'}}>Ayrshire{"\n"}</Text>
+                            <Text style={{color:'white'}}>1869{"\n"}</Text>
+                            <Text style={{color:'white'}}>Ayr United{"\n"}</Text>
+                            <Text style={{color:'white'}}>Rugby Park{"\n"}</Text>
+                            <Text style={{color:'white'}}>17,889</Text>
                         </View>
                     </View>
 
@@ -61,7 +61,7 @@ export default function Kilmarnock ({ navigation }) {
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View>
+                    <View style={{backgroundColor:'blue',}}>
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Kilmarnock+Football+Club+Shop/@55.6045741,-4.5116419,17z/data=!3m1!4b1!4m5!3m4!1s0x48883354d2cac925:0xf8b360af3e77e15a!8m2!3d55.6045741!4d-4.5094532")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
@@ -137,6 +137,7 @@ const styles = StyleSheet.create({
 
     informationText :{
         textDecorationLine:'underline',
+        color:'white'
     },
 
     clubLocation: {
@@ -153,7 +154,7 @@ const styles = StyleSheet.create({
     },
 
     stadiumInfo: {
-        backgroundColor: '#ECECEC',
+        backgroundColor: 'white',
         flexDirection: 'column',
         padding:10,
     },
