@@ -18,7 +18,7 @@ import {
     SectionContent,
 } from "react-native-rapi-ui";
 
-export default function Aberdeen ({ navigation }) {
+export default function HeartOfMidlothian ({ navigation }) {
     return (
         <Layout>
             <TopNav
