@@ -53,7 +53,7 @@ export default function Motherwell ({ navigation }) {
                             <Text>1886{"\n"}</Text>
                             <Text>Hamilton Academical{"\n"}</Text>
                             <Text>Fir Park{"\n"}</Text>
-                            <Text>13,742</Text>
+                            <Text>13,677</Text>
                         </View>
                     </View>
 
@@ -65,7 +65,7 @@ export default function Motherwell ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Motherwell+Football+Club/@55.7809173,-3.983193,17z/data=!3m1!4b1!4m5!3m4!1s0x488814ab61b31c43:0xc82f647f2d0c0e5b!8m2!3d55.7809169!4d-3.980991")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/motherwell_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

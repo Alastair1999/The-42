@@ -73,7 +73,7 @@ export default function Aberdeen ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Aberdeen+Football+Club/@57.1597222,-2.0907998,17z/data=!3m2!4b1!5s0x48840e1325333e63:0xd1f93de75d906043!4m5!3m4!1s0x48840e133afd6cb5:0xa07649422c25f7e5!8m2!3d57.1597222!4d-2.0886111")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/aberdeen_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

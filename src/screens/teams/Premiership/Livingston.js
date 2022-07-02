@@ -65,7 +65,7 @@ export default function Livingston ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tony+Macaroni+Arena/@55.8859504,-3.5240793,17z/data=!3m1!4b1!4m5!3m4!1s0x4887d95536a94f51:0x958c167fed80ad39!8m2!3d55.8859504!4d-3.5218906")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/livingston_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

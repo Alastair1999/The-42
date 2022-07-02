@@ -70,7 +70,7 @@ export default function StJohnstone ({ navigation }) {
                                 </Text>
                               </TouchableOpacity>
                             <Text style={{color:'white'}}>McDiarmid Park{"\n"}</Text>
-                            <Text style={{color:'white'}}>10,740</Text>
+                            <Text style={{color:'white'}}>10,696</Text>
                         </View>
                     </View>
 
@@ -82,7 +82,7 @@ export default function StJohnstone ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/McDiarmid+Park/@56.4098652,-3.4789923,17z/data=!3m1!4b1!4m5!3m4!1s0x488624b230ffffff:0xcc87ad464c96f432!8m2!3d56.4098652!4d-3.4768036")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/st_johnstone_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

@@ -73,7 +73,7 @@ export default function Rangers ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Ibrox+Stadium/@55.853172,-4.3114573,17z/data=!3m1!4b1!4m5!3m4!1s0x4888467327810ea1:0xff43846aa29e2690!8m2!3d55.853172!4d-4.3092686")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/rangers_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

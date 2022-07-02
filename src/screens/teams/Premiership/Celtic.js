@@ -61,7 +61,7 @@ export default function Celtic ({ navigation }) {
                                 </Text>
                               </TouchableOpacity>
                             <Text style={{color:'white'}}>Celtic Park{"\n"}</Text>
-                            <Text style={{color:'white'}}>60,411</Text>
+                            <Text style={{color:'white'}}>60,832</Text>
                         </View>
                     </View>
 

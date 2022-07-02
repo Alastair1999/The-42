@@ -73,7 +73,7 @@ export default function StMirren ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/St+Mirren+Football+Club+Ltd/@55.8508333,-4.4457998,17z/data=!3m1!4b1!4m5!3m4!1s0x488849360de63085:0x1e11e7636297a3d2!8m2!3d55.8508649!4d-4.4434534")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/st_mirren_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

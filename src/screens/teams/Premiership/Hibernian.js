@@ -73,7 +73,7 @@ export default function Hibernian ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Celtic+Park/@55.849696,-4.2077314,17z/data=!3m1!4b1!4m5!3m4!1s0x4888414f6436db0f:0xf1778c849701d24!8m2!3d55.849696!4d-4.2055427")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/celtic_gm.png")}/>
+                        source={require("../../../../assets/google-map-photos/hibs_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     

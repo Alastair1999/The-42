@@ -65,7 +65,7 @@ export default function DundeeUnited ({ navigation }) {
                         <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tannadice+Park/@56.4747082,-2.9711888,17z/data=!3m1!4b1!4m5!3m4!1s0x48865ce6c38200f7:0xad9d1f703c4f138e!8m2!3d56.4747082!4d-2.9690001")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/dundee_united_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
