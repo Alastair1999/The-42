@@ -53,7 +53,7 @@ export default function RossCounty ({ navigation }) {
                             <Text style={{color:'white'}}>1929{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Celtic");
+                                  navigation.navigate("Inverness");
                                 }}
                               >
                                 <Text style={{color:'white'}}>
@@ -82,19 +82,19 @@ export default function RossCounty ({ navigation }) {
                             text="Tickets"
                             color="#243f90"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.tickets.motherwellfc.co.uk")}
+                            onPress={() => Linking.openURL("https://mpv.tickets.com/schedule/?agency=RCMS_MVP&orgid=55250#/?view=list&includePackages=true")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#243f90"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/fixtures-and-results/first-team/")}
+                            onPress={() => Linking.openURL("https://www.rosscountyfootballclub.co.uk/match-center")}
                         />
                         <Button 
                             text="Players"
                             color="#243f90"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/squad/first-team/")}
+                            onPress={() => Linking.openURL("https://www.rosscountyfootballclub.co.uk/squads")}
                         />
                     </View>
 

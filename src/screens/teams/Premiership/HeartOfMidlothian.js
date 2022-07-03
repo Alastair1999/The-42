@@ -82,19 +82,19 @@ export default function HeartOfMidlothian ({ navigation }) {
                             text="Tickets"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://www.eticketing.co.uk/heartofmidlothian/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/fixtures/first-team/fixtures-and-results")}
                         />
                         <Button 
                             text="Players"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://www.heartsfc.co.uk/squads/first-team/playing-squad")}
                         />
                     </View>
 

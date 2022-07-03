@@ -82,19 +82,19 @@ export default function Rangers ({ navigation }) {
                             text="Tickets"
                             color="#1b458f"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.tickets.motherwellfc.co.uk")}
+                            onPress={() => Linking.openURL("https://tickets.rangers.co.uk/PagesPublic/ProductBrowse/productHome.aspx")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#1b458f"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/fixtures-and-results/first-team/")}
+                            onPress={() => Linking.openURL("https://www.rangers.co.uk/matches/mens-fixtures/AspTKSwoJQCzAqaBnP73A")}
                         />
                         <Button 
                             text="Players"
                             color="#1b458f"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/squad/first-team/")}
+                            onPress={() => Linking.openURL("https://www.rangers.co.uk/team/mens-team/1zagW2Yj9Dys5huB1Uq6DF")}
                         />
                     </View>
 

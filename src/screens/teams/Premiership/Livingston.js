@@ -74,19 +74,19 @@ export default function Livingston ({ navigation }) {
                             text="Tickets"
                             color="#ffcc00"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/tickets")}
+                            onPress={() => Linking.openURL("https://www.eticketing.co.uk/livingstonfc/Events")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#ffcc00"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/matches/fixtures")}
+                            onPress={() => Linking.openURL("https://www.livingstonfc.co.uk/match/men/fixtures-results/")}
                         />
                         <Button 
                             text="Players"
                             color="#ffcc00"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/team/first-team")}
+                            onPress={() => Linking.openURL("https://www.livingstonfc.co.uk/team/men/playing-squad/")}
                         />
                     </View>
 

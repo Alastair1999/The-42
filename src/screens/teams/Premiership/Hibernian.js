@@ -82,19 +82,19 @@ export default function Hibernian ({ navigation }) {
                             text="Tickets"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.celticfc.com/tickets/")}
+                            onPress={() => Linking.openURL("https://www.eticketing.co.uk/hibernianfc/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.celticfc.com/fixtures")}
+                            onPress={() => Linking.openURL("https://www.hibernianfc.co.uk/matches/mens-first-team-fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.celticfc.com/players")}
+                            onPress={() => Linking.openURL("https://www.hibernianfc.co.uk/squads/mens-first-team")}
                         />
                     </View>
 

@@ -51,7 +51,15 @@ export default function Motherwell ({ navigation }) {
                         <View style={styles.rightView}>
                             <Text>North Lanarkshire{"\n"}</Text>
                             <Text>1886{"\n"}</Text>
-                            <Text>Hamilton Academical{"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("HamiltonAccies");
+                                }}
+                              >
+                                <Text>
+                                  Hamilton Academical{"\n"}
+                                </Text>
+                            </TouchableOpacity>
                             <Text>Fir Park{"\n"}</Text>
                             <Text>13,677</Text>
                         </View>

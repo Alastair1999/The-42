@@ -51,7 +51,15 @@ export default function DundeeUnited ({ navigation }) {
                         <View style={styles.rightView}>
                             <Text>Dundee{"\n"}</Text>
                             <Text>1909{"\n"}</Text>
-                            <Text>Dundee FC{"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Dundee");
+                                }}
+                              >
+                                <Text>
+                                  Dundee F.C{"\n"}
+                                </Text>
+                            </TouchableOpacity>
                             <Text>Tannadice{"\n"}</Text>
                             <Text>14,223</Text>
                         </View>

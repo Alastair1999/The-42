@@ -94,7 +94,7 @@ export default function Celtic ({ navigation }) {
                             text="Players"
                             color="green"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.celticfc.com/players")}
+                            onPress={() => Linking.openURL("https://www.celticfc.com/teams")}
                         />
                     </View>
 

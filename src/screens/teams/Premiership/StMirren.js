@@ -53,7 +53,7 @@ export default function StMirren ({ navigation }) {
                             <Text style={{color:'white'}}>1877{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Rangers");
+                                  navigation.navigate("GreenockMorton");
                                 }}
                               >
                                 <Text style={{color:'white'}}>
@@ -82,19 +82,19 @@ export default function StMirren ({ navigation }) {
                             text="Tickets"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/tickets/")}
+                            onPress={() => Linking.openURL("https://www.stmirren.com/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://www.stmirren.com/match/first-team/first-team-fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://www.stmirren.com/teams/first-team/first-team-squad")}
                         />
                     </View>
 

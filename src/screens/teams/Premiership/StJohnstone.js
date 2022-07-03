@@ -91,19 +91,19 @@ export default function StJohnstone ({ navigation }) {
                             text="Tickets"
                             color="#243f90"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.tickets.motherwellfc.co.uk")}
+                            onPress={() => Linking.openURL("https://www.perthstjohnstonefc.co.uk/home-fan-tickets-news")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#243f90"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/fixtures-and-results/first-team/")}
+                            onPress={() => Linking.openURL("https://www.perthstjohnstonefc.co.uk/fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="#243f90"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.motherwellfc.co.uk/squad/first-team/")}
+                            onPress={() => Linking.openURL("https://www.perthstjohnstonefc.co.uk/squads/first-team")}
                         />
                     </View>
 

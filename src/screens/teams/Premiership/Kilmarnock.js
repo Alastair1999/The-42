@@ -51,7 +51,15 @@ export default function Kilmarnock ({ navigation }) {
                         <View style={styles.rightView}>
                             <Text style={{color:'white'}}>Ayrshire{"\n"}</Text>
                             <Text style={{color:'white'}}>1869{"\n"}</Text>
-                            <Text style={{color:'white'}}>Ayr United{"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("AyrUnited");
+                                }}
+                              >
+                                <Text style={{color:'white'}}>
+                                  Ayr United{"\n"}
+                                </Text>
+                            </TouchableOpacity>
                             <Text style={{color:'white'}}>Rugby Park{"\n"}</Text>
                             <Text style={{color:'white'}}>17,889</Text>
                         </View>
@@ -74,19 +82,19 @@ export default function Kilmarnock ({ navigation }) {
                             text="Tickets"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/tickets")}
+                            onPress={() => Linking.openURL("https://www.kilmarnockfc.co.uk/tickets/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/matches/fixtures")}
+                            onPress={() => Linking.openURL("https://www.kilmarnockfc.co.uk/matches/")}
                         />
                         <Button 
                             text="Players"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.dundeeunitedfc.co.uk/team/first-team")}
+                            onPress={() => Linking.openURL("https://www.kilmarnockfc.co.uk/squads/first-team/")}
                         />
                     </View>
 
