@@ -40,9 +40,6 @@ export default function ({ navigation }) {
       />
       <View style={styles.container}>
         <ScrollView>
-          
-          
-
         <View style={{
           alignItems: "center",
           justifyContent: "center",
@@ -183,43 +180,116 @@ export default function ({ navigation }) {
       </View>
 
       <View style={{
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-      >
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        >
         <Text
           fontWeight="bold"
           style={{
             color: 'black',
           }}
         >Cinch Championship</Text>
-      </View>
-
-      <View style={{
-        alignItems: "center",
-        justifyContent: "center",
-      }}
+        </View>
+        <View
+        style={{
+          marginLeft: 5,
+        }}
       >
         <Text
-          fontWeight="bold"
+          onPress={() => {
+            navigation.navigate("Arbroath");
+          }}
+          fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Cinch League One</Text>
-      </View>
-
-      <View style={{
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-      >
+        >Arbroath</Text>
         <Text
-          fontWeight="bold"
+          onPress={() => {
+            navigation.navigate("AyrUnited");
+          }}
+          fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Cinch League Two</Text>
-      </View>
+        >Ayr United</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("CoveRangers");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Cove Rangers</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Dundee");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Dundee</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("GreenockMorton");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Greenock Morton</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("HamiltonAccies");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Hamilton Academical</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Inverness");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Inverness Caledonian Thistle</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("PartickThistle");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Partick Thistle</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("QueensPark");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Queens Park</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("RaithRovers");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Raith Rovers</Text>
+
+        </View>
+
+      
             </ScrollView>
           </View>
 

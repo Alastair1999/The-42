@@ -30,6 +30,18 @@ import RossCounty from "../screens/teams/Premiership/RossCounty";
 import StJohnstone from "../screens/teams/Premiership/StJohnstone";
 import StMirren from "../screens/teams/Premiership/StMirren";
 
+//Team Screens - Cinch Championship
+import Arbroath from "../screens/teams/Championship/Arbroath";
+import AyrUnited from "../screens/teams/Championship/AyrUnited";
+import CoveRangers from "../screens/teams/Championship/CoveRangers";
+import Dundee from "../screens/teams/Championship/Dundee";
+import GreenockMorton from "../screens/teams/Championship/GreenockMorton";
+import HamiltonAccies from "../screens/teams/Championship/HamiltonAccies";
+import Inverness from "../screens/teams/Championship/Inverness";
+import PartickThistle from "../screens/teams/Championship/PartickThistle";
+import QueensPark from "../screens/teams/Championship/QueensPark";
+import RaithRovers from "../screens/teams/Championship/RaithRovers";
+
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -87,6 +99,16 @@ const Main = () => {
             <MainStack.Screen name="RossCounty" component={RossCounty} />
             <MainStack.Screen name="StJohnstone" component={StJohnstone} />
             <MainStack.Screen name="StMirren" component={StMirren} />
+            <MainStack.Screen name="Arbroath" component={Arbroath} />
+            <MainStack.Screen name="AyrUnited" component={AyrUnited} />
+            <MainStack.Screen name ="CoveRangers" component={CoveRangers} />
+            <MainStack.Screen name="Dundee" component={Dundee} />
+            <MainStack.Screen name="GreenockMorton" component={GreenockMorton} />
+            <MainStack.Screen name="HamiltonAccies" component={HamiltonAccies} />
+            <MainStack.Screen name="Inverness" component={Inverness} />
+            <MainStack.Screen name="PartickThistle" component={PartickThistle} />
+            <MainStack.Screen name="QueensPark" component={QueensPark} />
+            <MainStack.Screen name="RaithRovers" component={RaithRovers} />
         </MainStack.Navigator>
     );
 };
