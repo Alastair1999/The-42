@@ -34,13 +34,13 @@ export default function RaithRovers ({ navigation }) {
             <ScrollView>
                 <View style={styles.container}>
                     <View style={styles.header}>
-                        <Text style={styles.clubTitle}>Partick Thistle </Text>
+                        <Text style={styles.clubTitle}>Raith Rovers </Text>
                         <Image style={styles.clubBadgeFormat}
                         resizeMode="contain"
-                        source={require("../../../../assets/club-badges/partick-thistle.png")}/>
+                        source={require("../../../../assets/club-badges/raith-rovers.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"yellow"}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"#1b458f"}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
@@ -49,19 +49,19 @@ export default function RaithRovers ({ navigation }) {
                             <Text style={styles.informationText}>Capacity -</Text>
                         </View>
                         <View style={styles.rightView}>
-                            <Text style={{color:'black'}}>Inverness{"\n"}</Text>
-                            <Text style={{color:'black'}}>1876{"\n"}</Text>
+                            <Text style={{color:'red'}}>Fife / Kirkcaldy{"\n"}</Text>
+                            <Text style={{color:'red'}}>1883{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
                                   navigation.navigate("GreenockMorton");
                                 }}
                               >
-                                <Text style={{color:'black'}}>
-                                  Greenock Morton{"\n"}
+                                <Text style={{color:'red'}}>
+                                  Dunfermline Athletic{"\n"}
                                 </Text>
                               </TouchableOpacity>
-                            <Text style={{color:'black'}}>Firhill Stadium{"\n"}</Text>
-                            <Text style={{color:'black'}}>10,102</Text>
+                            <Text style={{color:'red'}}>Stark's Park{"\n"}</Text>
+                            <Text style={{color:'red'}}>9,000</Text>
                         </View>
                     </View>
 
@@ -69,37 +69,37 @@ export default function RaithRovers ({ navigation }) {
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View style={{backgroundColor:"yellow"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                    <View style={{backgroundColor:"#1b458f"}}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Raith+Rovers+Football+Club/@56.0995827,-3.1698837,17z/data=!3m1!4b1!4m5!3m4!1s0x4887b595bf75767b:0xfda30226f211c53a!8m2!3d56.0995827!4d-3.167695")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/raith_rovers_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
                     <View style={styles.buttonBackGround}>
                         <Button 
                             text="Tickets"
-                            color="red"
+                            color="#1b458f"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://www.raithrovers.net/buy-tickets")}
                         />
                         <Button 
                             text="Fixtures"
-                            color="red"
+                            color="#1b458f"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://www.raithrovers.net/fixtures")}
                         />
                         <Button 
                             text="Players"
-                            color="red"
+                            color="#1b458f"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://www.raithrovers.net/players")}
                         />
                     </View>
 
                     <View style={{padding:16, borderBottomWidth:1,}}>
-                        <Text style={{textDecorationLine:'underline', fontSize:20}}>Click to see previous visit submissions!</Text>
+                        <Text style={{textDecorationLine:'underline', fontSize:20, color:'red'}}>Click to see previous visit submissions!</Text>
                     </View>
                 </View>
             </ScrollView>
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
 
     clubTitle: {
         fontSize: 20,
-        color: 'red',
+        color: '#1b458f',
     },
 
     clubBadgeFormat: {
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
 
     informationText :{
         textDecorationLine:'underline',
-        color:'black',
+        color:'red',
     },
 
     clubLocation: {

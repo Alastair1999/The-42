@@ -70,10 +70,10 @@ export default function GreenockMorton ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"blue"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Greenock+Morton+Football+Club/@55.9412624,-4.7292153,17z/data=!3m1!4b1!4m5!3m4!1s0x4889ae197c0ec6d9:0x6fe44130c143794e!8m2!3d55.9412624!4d-4.7270266")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/greenock_morton_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function GreenockMorton ({ navigation }) {
                             text="Tickets"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://www.gmfctickets.co.uk/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://www.gmfc.net/matches/")}
                         />
                         <Button 
                             text="Players"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://www.gmfc.net/football/first-team-squad/")}
                         />
                     </View>
 

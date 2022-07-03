@@ -70,10 +70,10 @@ export default function CoveRangers ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"blue"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Cove+Rangers+F.C./@57.11261,-2.0994859,17z/data=!3m1!4b1!4m5!3m4!1s0x48840fc4836a65e1:0xb3146468f59a6320!8m2!3d57.11261!4d-2.0972972")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/cove_rangers_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function CoveRangers ({ navigation }) {
                             text="Tickets"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://coverangersfc.ticketco.events/uk/en/m")}
                         />
                         <Button 
                             text="Fixtures"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://coverangersfc.com/match/")}
                         />
                         <Button 
                             text="Players"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://coverangersfc.com/team/")}
                         />
                     </View>
 

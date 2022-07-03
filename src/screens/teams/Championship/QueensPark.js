@@ -40,7 +40,7 @@ export default function QueensPark ({ navigation }) {
                         source={require("../../../../assets/club-badges/queens-park.png")}/>
                     </View>
 
-                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"yellow"}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-evenly',borderWidth:1, padding:10,backgroundColor:"black"}}>
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
@@ -49,19 +49,19 @@ export default function QueensPark ({ navigation }) {
                             <Text style={styles.informationText}>Capacity -</Text>
                         </View>
                         <View style={styles.rightView}>
-                            <Text style={{color:'black'}}>Inverness{"\n"}</Text>
-                            <Text style={{color:'black'}}>1876{"\n"}</Text>
+                            <Text style={{color:'white'}}>Glasgow{"\n"}</Text>
+                            <Text style={{color:'white'}}>1867{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
                                   navigation.navigate("GreenockMorton");
                                 }}
                               >
-                                <Text style={{color:'black'}}>
-                                  Greenock Morton{"\n"}
+                                <Text style={{color:'white'}}>
+                                  Clyde{"\n"}
                                 </Text>
                               </TouchableOpacity>
-                            <Text style={{color:'black'}}>Firhill Stadium{"\n"}</Text>
-                            <Text style={{color:'black'}}>10,102</Text>
+                            <Text style={{color:'white'}}>Lesser Hampden{"\n"}</Text>
+                            <Text style={{color:'white'}}>1,700</Text>
                         </View>
                     </View>
 
@@ -69,32 +69,32 @@ export default function QueensPark ({ navigation }) {
                         <Text style={styles.clubTitle}> Stadium Location: </Text>
                     </View>
 
-                    <View style={{backgroundColor:"yellow"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                    <View style={{backgroundColor:"black"}}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Queen's+Park+Football+Club/@55.8249398,-4.258376,17z/data=!3m1!4b1!4m5!3m4!1s0x488846e45237d0af:0x810ab467eb38b9de!8m2!3d55.824929!4d-4.2561954")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/queens_park_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
                     <View style={styles.buttonBackGround}>
                         <Button 
                             text="Tickets"
-                            color="red"
+                            color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://queensparkfc.co.uk/tickets-2/")}
                         />
                         <Button 
                             text="Fixtures"
-                            color="red"
+                            color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://queensparkfc.co.uk/fixtures/")}
                         />
                         <Button 
                             text="Players"
-                            color="red"
+                            color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://queensparkfc.co.uk/players/")}
                         />
                     </View>
 
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
 
     clubTitle: {
         fontSize: 20,
-        color: 'red',
+        color: 'black',
     },
 
     clubBadgeFormat: {
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
 
     informationText :{
         textDecorationLine:'underline',
-        color:'black',
+        color:'white',
     },
 
     clubLocation: {
@@ -170,8 +170,8 @@ const styles = StyleSheet.create({
     stadiumPhoto: {
         alignSelf: 'center',
         height: 300,
-        width: Dimensions.get('window').width,
-        borderWidth: 1,
+        width: 370,
+        //borderWidth: 1,
     },
 
     buttonBackGround: {

@@ -70,10 +70,10 @@ export default function Dundee ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"#1a315a"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Dundee+Football+Club/@56.4754046,-2.975397,17z/data=!3m1!4b1!4m5!3m4!1s0x48865ce75fac5ec3:0xfbd91ea3d939fd52!8m2!3d56.4754046!4d-2.9732083")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/dundee_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function Dundee ({ navigation }) {
                             text="Tickets"
                             color="#1a315a"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://mpv.tickets.com/schedule/?agency=DDMS_MPV&orgid=54151#/?view=list&includePackages=true")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#1a315a"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://dundeefc.co.uk/matches/")}
                         />
                         <Button 
                             text="Players"
                             color="#1a315a"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://dundeefc.co.uk/team/first-team")}
                         />
                     </View>
 

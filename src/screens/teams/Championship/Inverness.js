@@ -70,10 +70,10 @@ export default function Inverness ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"blue"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Inverness+Caledonian+Thistle+Football+Club/@57.4953783,-4.2186836,17z/data=!3m1!4b1!4m5!3m4!1s0x488f76b9c61712f9:0x562026c884636c00!8m2!3d57.4953783!4d-4.2164949")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/inverness_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function Inverness ({ navigation }) {
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://ictfc.tickethour.co.uk/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://ictfc.com/calendar/fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://ictfc.com/team/inverness-caledonian-thistle")}
                         />
                     </View>
 

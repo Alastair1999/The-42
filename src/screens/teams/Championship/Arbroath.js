@@ -70,10 +70,10 @@ export default function Arbroath ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"#800000"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Arbroath+Football+Club/@56.5526649,-2.5938946,17z/data=!3m1!4b1!4m5!3m4!1s0x48868d2143063781:0x14e24490e16dd90d!8m2!3d56.5527183!4d-2.5917266")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/arbroath_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function Arbroath ({ navigation }) {
                             text="Tickets"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
                         />
                         <Button 
                             text="Players"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
                         />
                     </View>
 

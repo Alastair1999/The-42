@@ -70,10 +70,10 @@ export default function PartickThistle ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"yellow"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Partick+Thistle+Football+Club+Ltd/@55.8813082,-4.2725529,17z/data=!3m1!4b1!4m5!3m4!1s0x488844382af07307:0x3ac79e95af96e6e1!8m2!3d55.8813084!4d-4.2703632")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/partick_thistle_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function PartickThistle ({ navigation }) {
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://tickets.ptfc.co.uk/packages/LZEmOKzmpW/events")}
                         />
                         <Button 
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://ptfc.co.uk/fixtures/")}
                         />
                         <Button 
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://ptfc.co.uk/team/first-team/")}
                         />
                     </View>
 

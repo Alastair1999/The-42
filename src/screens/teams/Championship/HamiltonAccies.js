@@ -70,10 +70,10 @@ export default function HamiltonAccies ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"red"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Hamilton+Academical+Football+Club/@55.7819185,-4.0608622,17z/data=!3m2!4b1!5s0x48886ab729b0136f:0x38048578c641e013!4m5!3m4!1s0x48886acafc87af73:0xc1b3682da0b89ca7!8m2!3d55.7819185!4d-4.0586735")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/hamilton_accies_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function HamiltonAccies ({ navigation }) {
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://hamiltonacciesfc.co.uk/ticket-info/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://hamiltonacciesfc.co.uk/fixtures/")}
                         />
                         <Button 
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://hamiltonacciesfc.co.uk/first-team-profiles/")}
                         />
                     </View>
 

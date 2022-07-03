@@ -49,8 +49,8 @@ export default function AyrUnited ({ navigation }) {
                             <Text style={styles.informationText}>Capacity -</Text>
                         </View>
                         <View style={styles.rightView}>
-                            <Text style={{color:'black'}}>Angus / Arbroth{"\n"}</Text>
-                            <Text style={{color:'black'}}>1878{"\n"}</Text>
+                            <Text style={{color:'black'}}>Ayr{"\n"}</Text>
+                            <Text style={{color:'black'}}>1910{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
                                   navigation.navigate("Kilmarnock");
@@ -60,8 +60,8 @@ export default function AyrUnited ({ navigation }) {
                                   Kilmarnock{"\n"}
                                 </Text>
                               </TouchableOpacity>
-                            <Text style={{color:'black'}}>Gayfield Park{"\n"}</Text>
-                            <Text style={{color:'black'}}>6,600</Text>
+                            <Text style={{color:'black'}}>Somerset Park{"\n"}</Text>
+                            <Text style={{color:'black'}}>12,128</Text>
                         </View>
                     </View>
 
@@ -70,10 +70,10 @@ export default function AyrUnited ({ navigation }) {
                     </View>
 
                     <View style={{backgroundColor:"white"}}>
-                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Tynecastle+Park/@55.9390849,-3.2337323,17z/data=!3m1!4b1!4m5!3m4!1s0x4887c7aa96299593:0x9d4e5c780ee90305!8m2!3d55.9390849!4d-3.2315436")}>
+                        <TouchableOpacity onPress={() => Linking.openURL("https://www.google.co.uk/maps/place/Ayr+United+Football+And+Athletic+Club/@55.4690724,-4.6215044,17z/data=!3m1!4b1!4m5!3m4!1s0x4889d4222354d8f9:0xb04cffecd63eeb77!8m2!3d55.4690724!4d-4.6193157")}>
                         <Image style={styles.stadiumPhoto}
                         resizeMode="contain"
-                        source={require("../../../../assets/google-map-photos/hearts_gm.jpg")}/>
+                        source={require("../../../../assets/google-map-photos/ayr_united_gm.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -82,19 +82,19 @@ export default function AyrUnited ({ navigation }) {
                             text="Tickets"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https:///")}
+                            onPress={() => Linking.openURL("https://ayrunitedfc.co.uk/match-tickets")}
                         />
                         <Button 
                             text="Fixtures"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/matches/fixtures-results/")}
+                            onPress={() => Linking.openURL("https://ayrunitedfc.co.uk/fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.afc.co.uk/teams/1st-team/")}
+                            onPress={() => Linking.openURL("https://ayrunitedfc.co.uk/current-squad")}
                         />
                     </View>
 
