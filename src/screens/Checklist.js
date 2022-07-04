@@ -353,16 +353,16 @@ export default function ({ navigation }) {
         >Falkirk F.C</Text>
         <Text
           onPress={() => {
-            navigation.navigate("HamiltonAccies");
+            navigation.navigate("FcEdinburgh");
           }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >FC Edinburgh</Text>
+        >F.C. Edinburgh</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Inverness");
+            navigation.navigate("KeltyHearts");
           }}
           fontWeight="regular"
           style={{
@@ -371,7 +371,7 @@ export default function ({ navigation }) {
         >Kelty Hearts</Text>
         <Text
           onPress={() => {
-            navigation.navigate("PartickThistle");
+            navigation.navigate("Montrose");
           }}
           fontWeight="regular"
           style={{
@@ -380,7 +380,7 @@ export default function ({ navigation }) {
         >Montrose F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("QueensPark");
+            navigation.navigate("Peterhead");
           }}
           fontWeight="regular"
           style={{
@@ -389,7 +389,7 @@ export default function ({ navigation }) {
         >Peterhead F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("RaithRovers");
+            navigation.navigate("QueenOfTheSouth");
           }}
           fontWeight="regular"
           style={{

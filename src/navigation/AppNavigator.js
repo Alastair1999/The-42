@@ -48,6 +48,11 @@ import Alloa from "../screens/teams/League-One/Alloa";
 import Clyde from "../screens/teams/League-One/Clyde";
 import Dunfermline from "../screens/teams/League-One/Dunfermline";
 import Falkirk from "../screens/teams/League-One/Falkirk";
+import FcEdinburgh from "../screens/teams/League-One/FCEdinburgh";
+import KeltyHearts from "../screens/teams/League-One/KeltyHearts";
+import Montrose from "../screens/teams/League-One/Montrose";
+import Peterhead from "../screens/teams/League-One/Peterhead";
+import QueenOfTheSouth from "../screens/teams/League-One/QueenOfTheSouth";
 
 
 //Bottom Tab Navigation Bar
@@ -121,6 +126,11 @@ const Main = () => {
             <MainStack.Screen name="Clyde" component={Clyde} />
             <MainStack.Screen name="Dunfermline" component={Dunfermline} />
             <MainStack.Screen name="Falkirk" component={Falkirk} />
+            <MainStack.Screen name="FcEdinburgh" component={FcEdinburgh} />
+            <MainStack.Screen name="KeltyHearts" component={KeltyHearts} />
+            <MainStack.Screen name="Montrose" component={Montrose} />
+            <MainStack.Screen name="Peterhead" component={Peterhead} />
+            <MainStack.Screen name="QueenOfTheSouth" component={QueenOfTheSouth} />
         </MainStack.Navigator>
     );
 };
