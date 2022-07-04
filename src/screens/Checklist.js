@@ -289,6 +289,116 @@ export default function ({ navigation }) {
 
         </View>
 
+        <View style={{
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        >
+        <Text
+          fontWeight="bold"
+          style={{
+            color: 'black',
+          }}
+        >Cinch League One</Text>
+        </View>
+        <View
+        style={{
+          marginLeft: 5,
+        }}
+      >
+        <Text
+          onPress={() => {
+            navigation.navigate("Airdrie");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Aidrieonians</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Alloa");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Alloa Athletic</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Clyde");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Clyde F.C</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Dunfermline");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Dunfermline Athletic</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Falkirk");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Falkirk F.C</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("HamiltonAccies");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >FC Edinburgh</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Inverness");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Kelty Hearts</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("PartickThistle");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Montrose F.C.</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("QueensPark");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Peterhead F.C.</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("RaithRovers");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Queen of the South</Text>
+
+        </View>
+
       
             </ScrollView>
           </View>

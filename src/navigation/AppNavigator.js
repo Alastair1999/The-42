@@ -42,6 +42,13 @@ import PartickThistle from "../screens/teams/Championship/PartickThistle";
 import QueensPark from "../screens/teams/Championship/QueensPark";
 import RaithRovers from "../screens/teams/Championship/RaithRovers";
 
+//Team Screens - Cinch League One
+import Airdrie from "../screens/teams/League-One/Airdrie";
+import Alloa from "../screens/teams/League-One/Alloa";
+import Clyde from "../screens/teams/League-One/Clyde";
+import Dunfermline from "../screens/teams/League-One/Dunfermline";
+import Falkirk from "../screens/teams/League-One/Falkirk";
+
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -109,6 +116,11 @@ const Main = () => {
             <MainStack.Screen name="PartickThistle" component={PartickThistle} />
             <MainStack.Screen name="QueensPark" component={QueensPark} />
             <MainStack.Screen name="RaithRovers" component={RaithRovers} />
+            <MainStack.Screen name="Airdrie" component={Airdrie} />
+            <MainStack.Screen name ="Alloa" component={Alloa} />
+            <MainStack.Screen name="Clyde" component={Clyde} />
+            <MainStack.Screen name="Dunfermline" component={Dunfermline} />
+            <MainStack.Screen name="Falkirk" component={Falkirk} />
         </MainStack.Navigator>
     );
 };
