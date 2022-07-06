@@ -396,12 +396,121 @@ export default function ({ navigation }) {
             color: 'black',
           }}
         >Queen of the South</Text>
+        </View>
+
+        <View style={{
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        >
+        <Text
+          fontWeight="bold"
+          style={{
+            color: 'black',
+          }}
+        >Cinch League Two</Text>
+        </View>
+        <View
+        style={{
+          marginLeft: 5,
+        }}
+      >
+        <Text
+          onPress={() => {
+            navigation.navigate("Airdrie");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Albion Rovers</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Alloa");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Annan Athletic</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Clyde");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Bonnyrigg Rose</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Dunfermline");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Dumbarton F.C.</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Falkirk");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >East Fife</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("FcEdinburgh");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Elgin City</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("KeltyHearts");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Forfar Atheltic</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Montrose");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Stenhousemuir F.C.</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("Peterhead");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Stirling Albion</Text>
+        <Text
+          onPress={() => {
+            navigation.navigate("QueenOfTheSouth");
+          }}
+          fontWeight="regular"
+          style={{
+            color: 'black',
+          }}
+        >Stranraer F.C.</Text>
 
         </View>
 
       
-            </ScrollView>
-          </View>
+          </ScrollView>
+      </View>
 
 
 
