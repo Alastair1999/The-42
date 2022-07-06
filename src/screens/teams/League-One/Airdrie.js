@@ -82,19 +82,19 @@ export default function Airdrie ({ navigation }) {
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://embed.futureticketing.ie/c/airdrieonians/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://www.airdriefc.com/fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://www.airdriefc.com/senior-squad")}
                         />
                     </View>
 

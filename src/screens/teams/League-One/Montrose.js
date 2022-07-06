@@ -82,19 +82,19 @@ export default function Montrose ({ navigation }) {
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://montrosefc.ticketco.events/uk/en")}
                         />
                         <Button 
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://montrosefc.co.uk/match-details-mm/72-match-details/season-2022-23/2851-fixtures-rsults-season-2022-23")}
                         />
                         <Button 
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://montrosefc.co.uk/squad-info-mm/71-squad-info/players-season-2022-23/2843-montrose-fc-playing-staff-season-2022-23")}
                         />
                     </View>
 

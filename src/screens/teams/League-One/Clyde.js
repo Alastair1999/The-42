@@ -44,7 +44,7 @@ export default function Clyde ({ navigation }) {
                         <View style={styles.leftView}>
                             <Text style={styles.informationText}>City / Region -{"\n"}</Text>
                             <Text style={styles.informationText}>Year Founded -{"\n"}</Text>
-                            <Text style={styles.informationText}>Main Rival -{"\n"}</Text>
+                            <Text style={styles.informationText}>Main Rival -{"\n"} {"\n"}</Text>
                             <Text style={styles.informationText}>Stadium Name -{"\n"}</Text>
                             <Text style={styles.informationText}>Capacity -</Text>
                         </View>
@@ -91,19 +91,19 @@ export default function Clyde ({ navigation }) {
                             text="Tickets"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://clydefc.ticketco.events/uk/en?tracking_link_uuid=website")}
                         />
                         <Button 
                             text="Fixtures"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://www.clydefc.co.uk/match/fixtures/")}
                         />
                         <Button 
                             text="Players"
                             color="red"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://www.clydefc.co.uk/team/statistics/")}
                         />
                     </View>
 

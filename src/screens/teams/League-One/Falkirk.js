@@ -82,19 +82,19 @@ export default function Falkirk ({ navigation }) {
                             text="Tickets"
                             color="#0B0B45"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://falkirkfc.tickethour.co.uk/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#0B0B45"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://www.falkirkfc.co.uk/2021/07/02/fixtures//")}
                         />
                         <Button 
                             text="Players"
                             color="#0B0B45"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://www.falkirkfc.co.uk/players/")}
                         />
                     </View>
 

@@ -82,19 +82,19 @@ export default function Alloa ({ navigation }) {
                             text="Tickets"
                             color="orange"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://www.alloaathletic.co.uk/ticket-prices/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="orange"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://www.alloaathletic.co.uk/fixtures-results/")}
                         />
                         <Button 
                             text="Players"
                             color="orange"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://www.alloaathletic.co.uk/first-team/")}
                         />
                     </View>
 

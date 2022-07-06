@@ -91,19 +91,19 @@ export default function QueenOfTheSouth ({ navigation }) {
                             text="Tickets"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://store.qosfc.com/tickets")}
                         />
                         <Button 
                             text="Fixtures"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://www.qosfc.com/fixtures")}
                         />
                         <Button 
                             text="Players"
                             color="blue"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://www.qosfc.com/players")}
                         />
                     </View>
 

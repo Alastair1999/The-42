@@ -82,19 +82,19 @@ export default function Dunfermline ({ navigation }) {
                             text="Tickets"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://dafc.co.uk/matchtickets/")}
                         />
                         <Button 
                             text="Fixtures"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://dafc.co.uk/fixtures.php?SID=First+Team")}
                         />
                         <Button 
                             text="Players"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://dafc.co.uk/people.php?SID=First+Team")}
                         />
                     </View>
 

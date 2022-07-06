@@ -74,19 +74,19 @@ export default function KeltyHearts ({ navigation }) {
                             text="Tickets"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://app.fanbaseclub.com/Fan/Fixtures")}
                         />
                         <Button 
                             text="Fixtures"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/matches/")}
+                            onPress={() => Linking.openURL("https://keltyhearts.co.uk/results-fixtures-2021-2022/")}
                         />
                         <Button 
                             text="Players"
                             color="#800000"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/players/")}
+                            onPress={() => Linking.openURL("https://keltyhearts.co.uk/squad/")}
                         />
                     </View>
 

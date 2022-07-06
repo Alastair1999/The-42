@@ -83,7 +83,7 @@ export default function FcEdinburgh ({ navigation }) {
                             text="Tickets"
                             color="black"
                             width={100}
-                            onPress={() => Linking.openURL("https://www.arbroathfc.co.uk/match-day-tickets/")}
+                            onPress={() => Linking.openURL("https://app.fanbaseclub.com/Fan/SeasonTickets/ChooseQuantity?ticketId=282&clubId=72")}
                         />
                         <Button 
                             text="Fixtures"
