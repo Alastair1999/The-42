@@ -54,6 +54,17 @@ import Montrose from "../screens/teams/League-One/Montrose";
 import Peterhead from "../screens/teams/League-One/Peterhead";
 import QueenOfTheSouth from "../screens/teams/League-One/QueenOfTheSouth";
 
+//Team Screens - Cinch League Two
+import AlbionRovers from "../screens/teams/League-Two/AlbionRovers";
+import AnnanAthletic from "../screens/teams/League-Two/AnnanAthletic";
+import BonnyriggRose from "../screens/teams/League-Two/BonnyriggRose";
+import Dumbarton from "../screens/teams/League-Two/Dumbarton";
+import EastFife from "../screens/teams/League-Two/EastFife";
+import ElginCity from "../screens/teams/League-Two/ElginCity";
+import ForfarAthletic from "../screens/teams/League-Two/ForfarAthletic";
+import Stenhousemuir from "../screens/teams/League-Two/Stenhousemuir";
+import StirlingAlbion from "../screens/teams/League-Two/StirlingAlbion";
+import Stranraer from "../screens/teams/League-Two/Stranraer";
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -131,6 +142,16 @@ const Main = () => {
             <MainStack.Screen name="Montrose" component={Montrose} />
             <MainStack.Screen name="Peterhead" component={Peterhead} />
             <MainStack.Screen name="QueenOfTheSouth" component={QueenOfTheSouth} />
+            <MainStack.Screen name="AlbionRovers" component={AlbionRovers} />
+            <MainStack.Screen name="AnnanAthletic" component={AnnanAthletic} />
+            <MainStack.Screen name="BonnyriggRose" component={BonnyriggRose} />
+            <MainStack.Screen name="Dumbarton" component={Dumbarton} />
+            <MainStack.Screen name="EastFife" component={EastFife} />
+            <MainStack.Screen name="ElginCity" component={ElginCity} />
+            <MainStack.Screen name="ForfarAthletic" component={ForfarAthletic} />
+            <MainStack.Screen name="Stenhousemuir" component={Stenhousemuir} />
+            <MainStack.Screen name="StirlingAlbion" component={StirlingAlbion} />
+            <MainStack.Screen name="Stranraer" component={Stranraer} />
         </MainStack.Navigator>
     );
 };

@@ -417,7 +417,7 @@ export default function ({ navigation }) {
       >
         <Text
           onPress={() => {
-            navigation.navigate("Airdrie");
+            navigation.navigate("AlbionRovers");
           }}
           fontWeight="regular"
           style={{
@@ -426,7 +426,7 @@ export default function ({ navigation }) {
         >Albion Rovers</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Alloa");
+            navigation.navigate("AnnanAthletic");
           }}
           fontWeight="regular"
           style={{
@@ -435,16 +435,16 @@ export default function ({ navigation }) {
         >Annan Athletic</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Clyde");
+            navigation.navigate("BonnyriggRose");
           }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Bonnyrigg Rose</Text>
+        >Bonnyrigg Rose Athletic F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Dunfermline");
+            navigation.navigate("Dumbarton");
           }}
           fontWeight="regular"
           style={{
@@ -453,7 +453,7 @@ export default function ({ navigation }) {
         >Dumbarton F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Falkirk");
+            navigation.navigate("EastFife");
           }}
           fontWeight="regular"
           style={{
@@ -462,7 +462,7 @@ export default function ({ navigation }) {
         >East Fife</Text>
         <Text
           onPress={() => {
-            navigation.navigate("FcEdinburgh");
+            navigation.navigate("ElginCity");
           }}
           fontWeight="regular"
           style={{
@@ -471,16 +471,16 @@ export default function ({ navigation }) {
         >Elgin City</Text>
         <Text
           onPress={() => {
-            navigation.navigate("KeltyHearts");
+            navigation.navigate("ForfarAthletic");
           }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Forfar Atheltic</Text>
+        >Forfar Athletic F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Montrose");
+            navigation.navigate("Stenhousemuir");
           }}
           fontWeight="regular"
           style={{
@@ -489,16 +489,16 @@ export default function ({ navigation }) {
         >Stenhousemuir F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("Peterhead");
+            navigation.navigate("StirlingAlbion");
           }}
           fontWeight="regular"
           style={{
             color: 'black',
           }}
-        >Stirling Albion</Text>
+        >Stirling Albion F.C.</Text>
         <Text
           onPress={() => {
-            navigation.navigate("QueenOfTheSouth");
+            navigation.navigate("Stranraer");
           }}
           fontWeight="regular"
           style={{
