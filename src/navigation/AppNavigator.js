@@ -66,6 +66,12 @@ import Stenhousemuir from "../screens/teams/League-Two/Stenhousemuir";
 import StirlingAlbion from "../screens/teams/League-Two/StirlingAlbion";
 import Stranraer from "../screens/teams/League-Two/Stranraer";
 
+//Form Pages
+import AberdeenForm from "../screens/VisitForm/Premiership/AberdeenForm";
+
+//Query Pages
+import AberdeenQuery from "../screens/VisitForm/QueryResults/Premiership/AberdeenQuery";
+
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import {themeColor, useTheme} from "react-native-rapi-ui";
@@ -152,6 +158,8 @@ const Main = () => {
             <MainStack.Screen name="Stenhousemuir" component={Stenhousemuir} />
             <MainStack.Screen name="StirlingAlbion" component={StirlingAlbion} />
             <MainStack.Screen name="Stranraer" component={Stranraer} />
+            <MainStack.Screen name="AberdeenForm" component={AberdeenForm} />
+            <MainStack.Screen name="AberdeenQuery" component={AberdeenQuery} />
         </MainStack.Navigator>
     );
 };
