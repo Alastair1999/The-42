@@ -1,5 +1,5 @@
 import React from "react";
-import {StyleSheet, Text, View, Button, ScrollView, TextInput} from "react-native";
+import {StyleSheet, Text, View, Button, ScrollView, TextInput, ImageBackground} from "react-native";
 import {useState} from "react/cjs/react.development";
 //import {ScrollView, TextInput} from "react-native-web";
 import {addDoc, collection, doc, setDoc} from "firebase/firestore";
@@ -14,6 +14,8 @@ export default function AberdeenForm({navigation}) {
     const [date, setDate] = useState("");
     const [result, setResult] = useState("");
     const [scorers, setScorers] = useState("");
+
+    const image=require("../../../../assets/club-badges/aberdeen.png");
     
     function create() {
 
@@ -53,44 +55,47 @@ export default function AberdeenForm({navigation}) {
             <ScrollView>
             <TextInput
                 style={styles.textBoxes}
-                placeholder="Visit Name"
+                placeholder="Visit Name - e.g. 'Visit 1'"
                 onChangeText={(visit) => setVisit(visit)}
                 value={visit}
             />
             <TextInput
                 style={styles.textBoxes}
-                placeholder="Fixture"
+                placeholder="Fixture - e.g. 'Aberdeen v. Celtic'"
                 onChangeText={(fixture) => setFixture(fixture)}
                 value={fixture}
             />
             <TextInput
                 style={styles.textBoxes}
-                placeholder="Competition"
+                placeholder="Competition - e.g. 'Cinch Premiership'"
                 onChangeText={(competition) => setCompetition(competition)}
                 value={competition}
             />
             <TextInput
                 style={styles.textBoxes}
-                placeholder="Date"
+                placeholder="Date - DD/MM/YYYY format"
                 onChangeText={(date) => setDate(date)}
                 value={date}
             />
             <TextInput
                 style={styles.textBoxes}
-                placeholder="Result"
+                placeholder="Result - e.g. 'Aberdeen 1 - 1 Celtic'"
                 onChangeText={(result) => setResult(result)}
                 value={result}
             />
             <TextInput
                 style={styles.textBoxes}
-                placeholder="Goal Scorers"
+                placeholder="Goal Scorers - e.g. 'Barron | Kyogo'"
                 onChangeText={(scorers) => setScorers(scorers)}
                 value={scorers}
             />
-            <Button 
+            <Button
             onPress={create}
-            title="Submit"
+            title="Submit Visit"
+            color="red"
             >Submit Visit</Button>
+
+
             </ScrollView>
         </View>
     </Layout>
@@ -103,6 +108,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         alignItems: "center",
         justifyContent: "center",
+        padding: 20,
     },
 
     textBoxes : {
@@ -112,5 +118,7 @@ const styles = StyleSheet.create({
         borderColor:'grey',
         borderWidth: 0.2,
         borderRadius: 10,
+        marginBottom: 20,
     },
+
 });

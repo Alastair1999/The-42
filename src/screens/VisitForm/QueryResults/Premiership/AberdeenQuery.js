@@ -74,7 +74,7 @@ export default AberdeenQuery;
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#e5e5e5',
+        backgroundColor: 'red',
         padding: 15,
         borderRadius: 15,
         margin: 5,
