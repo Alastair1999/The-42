@@ -139,8 +139,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/albion-rovers.png')}
                         >
                             <Image source={require("../../assets/club-badges/albion-rovers.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Albion Rovers</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Albion Rovers F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("AlbionRovers");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("AlbionRovers");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -184,8 +201,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/annan-athletic.png')}
                         >
                             <Image source={require("../../assets/club-badges/annan-athletic.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Annan Athletic</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Annan Athletic F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("AnnanAthletic");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("AnnanAthletic");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -260,8 +294,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/bonnyrigg-rose.png')}
                         >
                             <Image source={require("../../assets/club-badges/bonnyrigg-rose.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Bonnyrigg Rose</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Bonnyrigg Rose Athletic F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("BonnyriggRose");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("BonnyriggRose");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -367,8 +418,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/dumbarton.png')}
                         >
                             <Image source={require("../../assets/club-badges/dumbarton.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Dumbarton</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Dumbarton F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Dumbarton");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Dumbarton");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -474,8 +542,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/east-fife.png')}
                         >
                             <Image source={require("../../assets/club-badges/east-fife.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>East Fife</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>East Fife F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("EastFife");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("EastFife");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -488,8 +573,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/elgin-city.png')}
                         >
                             <Image source={require("../../assets/club-badges/elgin-city.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Elgin City</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Elgin City F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("ElginCity");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("ElginCity");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -533,8 +635,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/forfar-athletic.png')}
                         >
                             <Image source={require("../../assets/club-badges/forfar-athletic.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Forfar Atheltic</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Forfar Athletic F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("ForfarAthletic");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("ForfarAthletic");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -693,8 +812,6 @@ export default function ({ navigation }) {
                                 <Text>Add a submission</Text>
                               </TouchableOpacity>
                             </Callout>
-                        
-                            
                         </Marker>
 
                         <Marker 
@@ -1140,8 +1257,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/stenhousemuir.png')}
                         >
                             <Image source={require("../../assets/club-badges/stenhousemuir.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Stenhousemuir</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Stenhousemuir F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Stenhousemuir");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Stenhousemuir");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -1154,8 +1288,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/stirling-albion.png')}
                         >
                             <Image source={require("../../assets/club-badges/stirling-albion.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Stirling Albion</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Stirling Albion F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("StirlingAlbion");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("StirlingAlbion");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
@@ -1168,8 +1319,25 @@ export default function ({ navigation }) {
                             //image ={require('../../assets/club-badges/stranraer.png')}
                         >
                             <Image source={require("../../assets/club-badges/stranraer.png")} style={{height: 25, width: 25}}/>
-                            <Callout>
-                                <Text>Stranraer FC</Text>
+                            <Callout style={styles.calloutStyle}>
+                                <Text style={styles.calloutTitle}>Stranraer F.C. {"\n"}</Text>
+                            <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Stranraer");
+                                }}
+                              >
+                                <Text>
+                                  View Club Information {"\n"}
+                                </Text>
+                              </TouchableOpacity>
+                              
+                              <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("Stranraer");
+                                }}
+                              >
+                                <Text>Add a submission</Text>
+                              </TouchableOpacity>
                             </Callout>
                         </Marker>
 
