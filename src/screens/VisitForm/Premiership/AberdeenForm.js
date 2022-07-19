@@ -112,10 +112,10 @@ const styles = StyleSheet.create({
     },
 
     textBoxes : {
-        width: '100%',
+        width: '95%',
         fontSize: 20,
         padding: 12,
-        borderColor:'grey',
+        borderColor:'red',
         borderWidth: 0.2,
         borderRadius: 10,
         marginBottom: 20,
