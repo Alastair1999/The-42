@@ -339,7 +339,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Celtic");
+                                  navigation.navigate("CelticForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>

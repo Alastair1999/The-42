@@ -68,9 +68,11 @@ import Stranraer from "../screens/teams/League-Two/Stranraer";
 
 //Form Pages
 import AberdeenForm from "../screens/VisitForm/Premiership/AberdeenForm";
+import CelticForm from "../screens/VisitForm/Premiership/CelticForm";
 
 //Query Pages
 import AberdeenQuery from "../screens/VisitForm/QueryResults/Premiership/AberdeenQuery";
+import CelticQuery from "../screens/VisitForm/QueryResults/Premiership/CelticQuery";
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -159,7 +161,9 @@ const Main = () => {
             <MainStack.Screen name="StirlingAlbion" component={StirlingAlbion} />
             <MainStack.Screen name="Stranraer" component={Stranraer} />
             <MainStack.Screen name="AberdeenForm" component={AberdeenForm} />
+            <MainStack.Screen name="CelticForm" component={CelticForm} />
             <MainStack.Screen name="AberdeenQuery" component={AberdeenQuery} />
+            <MainStack.Screen name="CelticQuery" component={CelticQuery} />
         </MainStack.Navigator>
     );
 };
