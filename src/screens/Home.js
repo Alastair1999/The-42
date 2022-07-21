@@ -899,7 +899,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Livingston");
+                                  navigation.navigate("LiviForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
