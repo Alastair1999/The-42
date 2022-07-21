@@ -743,7 +743,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("HeartOfMidlothian");
+                                  navigation.navigate("HeartsForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>

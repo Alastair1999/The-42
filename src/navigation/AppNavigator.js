@@ -70,11 +70,14 @@ import Stranraer from "../screens/teams/League-Two/Stranraer";
 import AberdeenForm from "../screens/VisitForm/Premiership/AberdeenForm";
 import CelticForm from "../screens/VisitForm/Premiership/CelticForm";
 import DundeeUnitedForm from "../screens/VisitForm/Premiership/DundeeUnitedForm";
+import HeartsForm from "../screens/VisitForm/Premiership/HeartsForm";
 
 //Query Pages
 import AberdeenQuery from "../screens/VisitForm/QueryResults/Premiership/AberdeenQuery";
 import CelticQuery from "../screens/VisitForm/QueryResults/Premiership/CelticQuery";
 import DundeeUnitedQuery from "../screens/VisitForm/QueryResults/Premiership/DundeeUnitedQuery";
+import HeartsQuery from "../screens/VisitForm/QueryResults/Premiership/HeartsQuery";
+
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -165,9 +168,11 @@ const Main = () => {
             <MainStack.Screen name="AberdeenForm" component={AberdeenForm} />
             <MainStack.Screen name="CelticForm" component={CelticForm} />
             <MainStack.Screen name="DundeeUnitedForm" component={DundeeUnitedForm} />
+            <MainStack.Screen name="HeartsForm" component={HeartsForm} />
             <MainStack.Screen name="AberdeenQuery" component={AberdeenQuery} />
             <MainStack.Screen name="CelticQuery" component={CelticQuery} />
             <MainStack.Screen name="DundeeUnitedQuery" component={DundeeUnitedQuery} />
+            <MainStack.Screen name="HeartsQuery" component={HeartsQuery} />
         </MainStack.Navigator>
     );
 };
