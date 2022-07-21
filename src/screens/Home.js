@@ -463,7 +463,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("DundeeUnited");
+                                  navigation.navigate("DundeeUnitedForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
