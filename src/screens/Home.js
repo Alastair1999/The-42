@@ -868,7 +868,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Kilmarnock");
+                                  navigation.navigate("KillieForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
