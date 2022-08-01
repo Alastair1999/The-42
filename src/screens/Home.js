@@ -51,14 +51,6 @@ export default function ({ navigation }) {
       />
       <ScrollView>
       <SafeAreaView style={styles.container}>
-        <Section>
-          <SectionContent>
-            <Text fontWeight="bold" style={{}}>
-              The number of stadiums visited is
-            </Text>
-          </SectionContent>
-        </Section>
-
         <View>
                     <MapView style={styles.map} 
                     initialRegion ={{
