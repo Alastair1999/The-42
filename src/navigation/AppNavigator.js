@@ -74,6 +74,7 @@ import HeartsForm from "../screens/VisitForm/Premiership/HeartsForm";
 import HibsForm from "../screens/VisitForm/Premiership/HibsForm";
 import KillieForm from "../screens/VisitForm/Premiership/KillieForm";
 import LiviForm from "../screens/VisitForm/Premiership/LiviForm";
+import MotherwellForm from "../screens/VisitForm/Premiership/MotherwellForm";
 
 //Query Pages
 import AberdeenQuery from "../screens/VisitForm/QueryResults/Premiership/AberdeenQuery";
@@ -83,6 +84,7 @@ import HeartsQuery from "../screens/VisitForm/QueryResults/Premiership/HeartsQue
 import HibsQuery from "../screens/VisitForm/QueryResults/Premiership/HibsQuery";
 import KillieQuery from "../screens/VisitForm/QueryResults/Premiership/KillieQuery";
 import LiviQuery from "../screens/VisitForm/QueryResults/Premiership/LiviQuery";
+import MotherwellQuery from "../screens/VisitForm/QueryResults/Premiership/MotherwellQuery";
 
 
 //Bottom Tab Navigation Bar
@@ -178,6 +180,7 @@ const Main = () => {
             <MainStack.Screen name="HibsForm" component={HibsForm} />
             <MainStack.Screen name="KillieForm" component={KillieForm} />
             <MainStack.Screen name="LiviForm" component={LiviForm} />
+            <MainStack.Screen name="MotherwellForm" component={MotherwellForm} />
             <MainStack.Screen name="AberdeenQuery" component={AberdeenQuery} />
             <MainStack.Screen name="CelticQuery" component={CelticQuery} />
             <MainStack.Screen name="DundeeUnitedQuery" component={DundeeUnitedQuery} />
@@ -185,6 +188,8 @@ const Main = () => {
             <MainStack.Screen name="HibsQuery" component={HibsQuery} />
             <MainStack.Screen name="KillieQuery" component={KillieQuery} />
             <MainStack.Screen name="LiviQuery" component={LiviQuery} />
+            <MainStack.Screen name="MotherwellQuery" component={MotherwellQuery} />
+
             
         </MainStack.Navigator>
     );

@@ -961,7 +961,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Motherwell");
+                                  navigation.navigate("MotherwellForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
