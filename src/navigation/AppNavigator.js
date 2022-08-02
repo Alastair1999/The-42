@@ -88,6 +88,9 @@ import MotherwellQuery from "../screens/VisitForm/QueryResults/Premiership/Mothe
 
 //Fixture Pages
 import PremiershipFixtures from "../screens/PremiershipFixtures";
+import ChampionshipFixtures from "../screens/ChampionshipFixtures";
+import LeagueOneFixtures from "../screens/LeagueOneFixtures";
+import LeagueTwoFixtures from "../screens/LeagueTwoFixtures";
 
 
 //Bottom Tab Navigation Bar
@@ -193,6 +196,9 @@ const Main = () => {
             <MainStack.Screen name="LiviQuery" component={LiviQuery} />
             <MainStack.Screen name="MotherwellQuery" component={MotherwellQuery} />
             <MainStack.Screen name="PremiershipFixtures" component={PremiershipFixtures} />
+            <MainStack.Screen name="ChampionshipFixtures" component={ChampionshipFixtures} />
+            <MainStack.Screen name="LeagueOneFixtures" component={LeagueOneFixtures} />
+            <MainStack.Screen name="LeagueTwoFixtures" component={LeagueTwoFixtures} />
 
             
         </MainStack.Navigator>

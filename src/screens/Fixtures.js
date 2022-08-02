@@ -46,7 +46,7 @@ export default function ({ navigation }) {
                     <TouchableOpacity
                             style={styles.button}
                             onPress={() => {
-                                navigation.navigate("Home");
+                                navigation.navigate("ChampionshipFixtures");
                             }}
                         >
                             <Text style={styles.buttonText}>Cinch Championship</Text>
@@ -60,7 +60,7 @@ export default function ({ navigation }) {
                     <TouchableOpacity
                             style={styles.button}
                             onPress={() => {
-                                navigation.navigate("Home");
+                                navigation.navigate("LeagueOneFixtures");
                             }}
                         >
                             <Text style={styles.buttonText}>Cinch League One</Text>
@@ -74,7 +74,7 @@ export default function ({ navigation }) {
                     <TouchableOpacity
                             style={styles.button}
                             onPress={() => {
-                                navigation.navigate("Home");
+                                navigation.navigate("LeagueTwoFixtures");
                             }}
                         >
                             <Text style={styles.buttonText}>Cinch League Two</Text>
