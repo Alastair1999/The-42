@@ -33,7 +33,7 @@ export default function ({ navigation }) {
                         <TouchableOpacity
                             style={styles.button}
                             onPress={() => {
-                                navigation.navigate("Home");
+                                navigation.navigate("PremiershipFixtures");
                             }}
                         >
                             <Text style={styles.buttonText}>Cinch Premiership</Text>

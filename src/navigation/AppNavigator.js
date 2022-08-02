@@ -86,6 +86,9 @@ import KillieQuery from "../screens/VisitForm/QueryResults/Premiership/KillieQue
 import LiviQuery from "../screens/VisitForm/QueryResults/Premiership/LiviQuery";
 import MotherwellQuery from "../screens/VisitForm/QueryResults/Premiership/MotherwellQuery";
 
+//Fixture Pages
+import PremiershipFixtures from "../screens/PremiershipFixtures";
+
 
 //Bottom Tab Navigation Bar
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
@@ -189,6 +192,7 @@ const Main = () => {
             <MainStack.Screen name="KillieQuery" component={KillieQuery} />
             <MainStack.Screen name="LiviQuery" component={LiviQuery} />
             <MainStack.Screen name="MotherwellQuery" component={MotherwellQuery} />
+            <MainStack.Screen name="PremiershipFixtures" component={PremiershipFixtures} />
 
             
         </MainStack.Navigator>
