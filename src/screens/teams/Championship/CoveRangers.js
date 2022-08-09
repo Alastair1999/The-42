@@ -53,7 +53,7 @@ export default function CoveRangers ({ navigation }) {
                             <Text style={{color:'white'}}>1922{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Kilmarnock");
+                                  navigation.navigate("Peterhead");
                                 }}
                               >
                                 <Text style={{color:'white'}}>

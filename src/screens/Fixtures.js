@@ -52,7 +52,7 @@ export default function ({ navigation }) {
                             <Text style={styles.buttonText}>Cinch Championship</Text>
                             <Image style={styles.leagueBadge}
                                 resizeMode="contain"
-                                source={require("../../assets/league-badges/premiership-logo.png")}/>
+                                source={require("../../assets/league-badges/championship-logo.png")}/>
                         </TouchableOpacity>
                     </View>
                     
@@ -66,7 +66,7 @@ export default function ({ navigation }) {
                             <Text style={styles.buttonText}>Cinch League One</Text>
                             <Image style={styles.leagueBadge}
                                 resizeMode="contain"
-                                source={require("../../assets/league-badges/premiership-logo.png")}/>
+                                source={require("../../assets/league-badges/league1.png")}/>
                         </TouchableOpacity>
                     </View>
 
@@ -80,7 +80,7 @@ export default function ({ navigation }) {
                             <Text style={styles.buttonText}>Cinch League Two</Text>
                             <Image style={styles.leagueBadge}
                                 resizeMode="contain"
-                                source={require("../../assets/league-badges/premiership-logo.png")}/>
+                                source={require("../../assets/league-badges/league-two-logo.png")}/>
                         </TouchableOpacity>
                     </View>
                 </View>

@@ -62,7 +62,7 @@ export default function QueenOfTheSouth ({ navigation }) {
                               </TouchableOpacity>
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("DundeeUnited");
+                                  navigation.navigate("Stranraer");
                                 }}
                               >
                                 <Text style={{color:'white'}}>

@@ -53,7 +53,7 @@ export default function RaithRovers ({ navigation }) {
                             <Text style={{color:'red'}}>1883{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("GreenockMorton");
+                                  navigation.navigate("Dunfermline");
                                 }}
                               >
                                 <Text style={{color:'red'}}>

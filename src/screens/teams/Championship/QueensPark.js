@@ -53,7 +53,7 @@ export default function QueensPark ({ navigation }) {
                             <Text style={{color:'white'}}>1867{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("GreenockMorton");
+                                  navigation.navigate("Clyde");
                                 }}
                               >
                                 <Text style={{color:'white'}}>

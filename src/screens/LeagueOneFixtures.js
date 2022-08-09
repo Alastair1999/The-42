@@ -14,15 +14,15 @@ import { Ionicons } from "@expo/vector-icons";
 
 const DATA = [
     {
-        title: "Round 1",
+        title: "Round 1 - 30/07",
         data: ["Dunfermline vs Alloa", "Falkirk vs Montrose", "Kelty Hearts vs FC Edinburgh", "Peterhead vs Airdrie", "Queen of the South vs Clyde"]
     },
     {
-        title: "Round 2",
+        title: "Round 2 - 06/08",
         data: ["Airdrie vs Falkirk", "Alloa vs Kelty Hearts", "Clyde vs Peterhead", "Montrose vs Queen of the South", "FC Edinburgh vs Dunfermline"]
     },
     {
-        title: "Round 3",
+        title: "Round 3 - 13/08",
         data: ["Alloa vs FC Edinburgh", "Clyde vs Kelty Hearts", "Dunfermline vs Montrose", "Falkirk vs Peterhead", "Queen of the South vs Airdrie"]
     },
 ];

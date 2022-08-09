@@ -53,11 +53,11 @@ export default function Falkirk ({ navigation }) {
                             <Text style={{color:'white'}}>1876{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Hibernian");
+                                  navigation.navigate("Dunfermline");
                                 }}
                               >
                                 <Text style={{color:'white'}}>
-                                  Albion Rovers{"\n"}
+                                  Dunfermline Athletic{"\n"}
                                 </Text>
                               </TouchableOpacity>
                             <Text style={{color:'white'}}>Falkirk Stadium{"\n"}</Text>

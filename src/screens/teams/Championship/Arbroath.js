@@ -53,7 +53,7 @@ export default function Arbroath ({ navigation }) {
                             <Text style={{color:'white'}}>1878{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Hibernian");
+                                  navigation.navigate("Montrose");
                                 }}
                               >
                                 <Text style={{color:'white'}}>

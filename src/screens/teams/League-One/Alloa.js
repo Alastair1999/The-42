@@ -53,7 +53,7 @@ export default function Alloa ({ navigation }) {
                             <Text style={{color:'black'}}>1921{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Hibernian");
+                                  navigation.navigate("StirlingAlbion");
                                 }}
                               >
                                 <Text style={{color:'black'}}>

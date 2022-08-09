@@ -84,7 +84,7 @@ export default function LeagueTables(navigation){
                             <Text style={styles.leagueName}>Cinch Championship</Text>
                             <Image style={styles.leagueBadges}
                                 resizeMode="contain"
-                                source={require("../../assets/league-badges/premiership-logo.png")}/>
+                                source={require("../../assets/league-badges/championship-logo.png")}/>
                         </View>
                                 <Table  borderStyle={{borderWidth:1}}>
                                 <Row 
@@ -113,7 +113,7 @@ export default function LeagueTables(navigation){
                             <Text style={styles.leagueName}>Cinch League One</Text>
                             <Image style={styles.leagueBadges}
                                 resizeMode="contain"
-                                source={require("../../assets/league-badges/premiership-logo.png")}/>
+                                source={require("../../assets/league-badges/league1.png")}/>
                         </View>
                                 <Table  borderStyle={{borderWidth:1}}>
                                 <Row 
@@ -142,7 +142,7 @@ export default function LeagueTables(navigation){
                             <Text style={styles.leagueName}>Cinch League Two</Text>
                             <Image style={styles.leagueBadges}
                                 resizeMode="contain"
-                                source={require("../../assets/league-badges/premiership-logo.png")}/>
+                                source={require("../../assets/league-badges/league-two-logo.png")}/>
                         </View>
                                 <Table  borderStyle={{borderWidth:1}}>
                                 <Row 

@@ -53,7 +53,7 @@ export default function Peterhead ({ navigation }) {
                             <Text style={{color:'white'}}>1891{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Hibernian");
+                                  navigation.navigate("ElginCity");
                                 }}
                               >
                                 <Text style={{color:'white'}}>

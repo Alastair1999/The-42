@@ -14,15 +14,15 @@ import { Ionicons } from "@expo/vector-icons";
 
 const DATA = [
     {
-        title: "Round 1",
+        title: "Round 1 - 30/07",
         data: ["Stranraer vs Annan", "Stenhousemuir vs Albion Rovers", "Elgin vs East Fife", "Dumbarton vs Stirling", "Bonnyrigg Rose vs Forfar"]
     },
     {
-        title: "Round 2",
+        title: "Round 2 - 06/08",
         data: ["Albion Rovers vs Dumbarton", "Annan Athletic vs Stenhousemuir", "East Fife vs Bonnyrigg Rose", "Forfar vs Stranraer", "Stirling vs Elgin"]
     },
     {
-        title: "Round 3",
+        title: "Round 3 -13/08",
         data: ["Albion Rovers vs East Fife", "Dumbarton vs Annan", "Forfar vs Elgin", "Stirling vs Stenhousemuir", "Stranraer vs Bonnyrigg Rose"]
     }
 ];
@@ -38,7 +38,7 @@ export default function LeagueTwoFixtures ({navigation}) {
     return (
         <Layout>
             <TopNav
-                middleContent="Cinch Premiership Fixtures"
+                middleContent="Cinch League Two Fixtures"
                 leftContent={
                     <Ionicons
                       name="chevron-back"

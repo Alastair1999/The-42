@@ -22,7 +22,7 @@ const DATA = [
         data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
     },
     {
-        title:"Round 3 - 30/07 to 31/07",
+        title:"Round 3 - 13/08 to 14/08",
         data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
     },
     {

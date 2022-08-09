@@ -53,7 +53,7 @@ export default function Airdrie ({ navigation }) {
                             <Text style={{color:'white'}}>2002{"\n"}</Text>
                             <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Hibernian");
+                                  navigation.navigate("AlbionRovers");
                                 }}
                               >
                                 <Text style={{color:'white'}}>
