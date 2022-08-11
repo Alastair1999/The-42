@@ -123,6 +123,35 @@ import RangersQuery from "../screens/VisitForm/QueryResults/Premiership/RangersQ
 import RossCountyQuery from "../screens/VisitForm/QueryResults/Premiership/RossCountyQuery";
 import StJohnstoneQuery from "../screens/VisitForm/QueryResults/Premiership/StJohnstoneQuery";
 import StMirrenQuery from "../screens/VisitForm/QueryResults/Premiership/StMirrenQuery";
+import ArbroathQuery from "../screens/VisitForm/QueryResults/Championship/ArbroathQuery";
+import AyrQuery from "../screens/VisitForm/QueryResults/Championship/AyrQuery";
+import CoveRangersQuery from "../screens/VisitForm/QueryResults/Championship/CoveRangersQuery";
+import DundeeQuery from "../screens/VisitForm/QueryResults/Championship/DundeeQuery";
+import MortonQuery from "../screens/VisitForm/QueryResults/Championship/MortonQuery";
+import HamiltonQuery from "../screens/VisitForm/QueryResults/Championship/HamiltonQuery";
+import InvernessQuery from "../screens/VisitForm/QueryResults/Championship/InvernessQuery";
+import PartickThistleQuery from "../screens/VisitForm/QueryResults/Championship/PartickThistleQuery";
+import QueensParkQuery from "../screens/VisitForm/QueryResults/Championship/QueensParkQuery";
+import RaithRoversQuery from "../screens/VisitForm/QueryResults/Championship/RaithRoversQuery";
+import AirdrieQuery from "../screens/VisitForm/QueryResults/League-One/AirdrieQuery";
+import AlloaQuery from "../screens/VisitForm/QueryResults/League-One/AlloaQuery";
+import ClydeQuery from "../screens/VisitForm/QueryResults/League-One/ClydeQuery";
+import DunfermlineQuery from "../screens/VisitForm/QueryResults/League-One/DunfermlineQuery";
+import FalkirkQuery from "../screens/VisitForm/QueryResults/League-One/FalkirkQuery";
+import KeltyHeartsQuery from "../screens/VisitForm/QueryResults/League-One/KeltyHeartsQuery";
+import MontroseQuery from "../screens/VisitForm/QueryResults/League-One/MontroseQuery";
+import PeterheadQuery from "../screens/VisitForm/QueryResults/League-One/PeterheadQuery";
+import QueenOfTheSouthQuery from "../screens/VisitForm/QueryResults/League-One/QueenOfTheSouthQuery";
+import AlbionRoversQuery from "../screens/VisitForm/QueryResults/League-Two/AlbionRoversQuery";
+import AnnanQuery from "../screens/VisitForm/QueryResults/League-Two/AnnanQuery";
+import BonnyriggRoseQuery from "../screens/VisitForm/QueryResults/League-Two/BonnyriggRoseQuery";
+import DumbartonQuery from "../screens/VisitForm/QueryResults/League-Two/DumbartonQuery";
+import EastFifeQuery from "../screens/VisitForm/QueryResults/League-Two/EastFifeQuery";
+import ElginCityQuery from "../screens/VisitForm/QueryResults/League-Two/ElginCityQuery";
+import ForfarQuery from "../screens/VisitForm/QueryResults/League-Two/ForfarQuery";
+import StenhousemuirQuery from "../screens/VisitForm/QueryResults/League-Two/StenhousemuirQuery";
+import StirlingQuery from "../screens/VisitForm/QueryResults/League-Two/StirlingQuery";
+import StranraerQuery from "../screens/VisitForm/QueryResults/League-Two/StranraerQuery";
 
 //Fixture Pages
 import PremiershipFixtures from "../screens/PremiershipFixtures";
@@ -271,6 +300,35 @@ const Main = () => {
             <MainStack.Screen name="RossCountyQuery" component={RossCountyQuery} />
             <MainStack.Screen name="StJohnstoneQuery" component={StJohnstoneQuery} />
             <MainStack.Screen name="StMirrenQuery" component={StMirrenQuery} />
+            <MainStack.Screen name="ArbroathQuery" component={ArbroathQuery} />
+            <MainStack.Screen name="AyrQuery" component={AyrQuery} />
+            <MainStack.Screen name="CoveRangersQuery" component={CoveRangersQuery} />
+            <MainStack.Screen name="DundeeQuery" component={DundeeQuery} />
+            <MainStack.Screen name="MortonQuery" component={MortonQuery} />
+            <MainStack.Screen name="HamiltonQuery" component={HamiltonQuery} />
+            <MainStack.Screen name="InvernessQuery" component={InvernessQuery} />
+            <MainStack.Screen name="PartickThistleQuery" component={PartickThistleQuery} />
+            <MainStack.Screen name="QueensParkQuery" component={QueensParkQuery} />
+            <MainStack.Screen name="RaithRoversQuery" component={RaithRoversQuery} />
+            <MainStack.Screen name="AirdrieQuery" component={AirdrieQuery} />
+            <MainStack.Screen name="AlloaQuery" component={AlloaQuery} />
+            <MainStack.Screen name="ClydeQuery" component={ClydeQuery} />
+            <MainStack.Screen name="DunfermlineQuery" component={DunfermlineQuery} />
+            <MainStack.Screen name="FalkirkQuery" component={FalkirkQuery} />
+            <MainStack.Screen name="KeltyHeartsQuery" component={KeltyHeartsQuery} />
+            <MainStack.Screen name="MontroseQuery" component={MontroseQuery} />
+            <MainStack.Screen name="PeterheadQuery" component={PeterheadQuery} />
+            <MainStack.Screen name="QueenOfTheSouthQuery" component={QueenOfTheSouthQuery} />
+            <MainStack.Screen name="AlbionRoversQuery" component={AlbionRoversQuery} />
+            <MainStack.Screen name="AnnanQuery" component={AnnanQuery} />
+            <MainStack.Screen name="BonnyriggRoseQuery" component={BonnyriggRoseQuery} />
+            <MainStack.Screen name="DumbartonQuery" component={DumbartonQuery} />
+            <MainStack.Screen name="EastFifeQuery" component={EastFifeQuery} />
+            <MainStack.Screen name="ElginCityQuery" component={ElginCityQuery} />
+            <MainStack.Screen name="ForfarQuery" component={ForfarQuery} />
+            <MainStack.Screen name="StenhousemuirQuery" component={StenhousemuirQuery} />
+            <MainStack.Screen name="StirlingQuery" component={StirlingQuery} />
+            <MainStack.Screen name="StranraerQuery" component={StranraerQuery} />
             <MainStack.Screen name="PremiershipFixtures" component={PremiershipFixtures} />
             <MainStack.Screen name="ChampionshipFixtures" component={ChampionshipFixtures} />
             <MainStack.Screen name="LeagueOneFixtures" component={LeagueOneFixtures} />

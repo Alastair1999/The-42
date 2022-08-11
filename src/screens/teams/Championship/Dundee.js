@@ -99,7 +99,16 @@ export default function Dundee ({ navigation }) {
                     </View>
 
                     <View style={{padding:16, borderBottomWidth:1,}}>
-                        <Text style={{textDecorationLine:'underline', fontSize:20}}>Click to see previous visit submissions!</Text>
+                        <TouchableOpacity
+                                onPress={() => {
+                                  navigation.navigate("DundeeQuery");
+                                }}
+                              >
+                                <Text style={{textDecorationLine: 'underline', fontSize: 20}}>
+                                  Click here to see previous visits!{"\n"}
+                                </Text>
+                        </TouchableOpacity>
+                
                     </View>
                 </View>
             </ScrollView>
