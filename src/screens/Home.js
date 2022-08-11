@@ -1139,7 +1139,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Rangers");
+                                  navigation.navigate("RangersForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1170,7 +1170,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("RossCounty");
+                                  navigation.navigate("RossCountyForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1201,7 +1201,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("StJohnstone");
+                                  navigation.navigate("StJohnstoneForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1232,7 +1232,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("StMirren");
+                                  navigation.navigate("StMirrenForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>

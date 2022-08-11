@@ -75,6 +75,10 @@ import HibsForm from "../screens/VisitForm/Premiership/HibsForm";
 import KillieForm from "../screens/VisitForm/Premiership/KillieForm";
 import LiviForm from "../screens/VisitForm/Premiership/LiviForm";
 import MotherwellForm from "../screens/VisitForm/Premiership/MotherwellForm";
+import RangersForm from "../screens/VisitForm/Premiership/RangersForm";
+import RossCountyForm from "../screens/VisitForm/Premiership/RossCountyForm";
+import StJohnstoneForm from "../screens/VisitForm/Premiership/StJohnstoneForm";
+import StMirrenForm from "../screens/VisitForm/Premiership/StMirrenForm";
 
 //Query Pages
 import AberdeenQuery from "../screens/VisitForm/QueryResults/Premiership/AberdeenQuery";
@@ -85,6 +89,10 @@ import HibsQuery from "../screens/VisitForm/QueryResults/Premiership/HibsQuery";
 import KillieQuery from "../screens/VisitForm/QueryResults/Premiership/KillieQuery";
 import LiviQuery from "../screens/VisitForm/QueryResults/Premiership/LiviQuery";
 import MotherwellQuery from "../screens/VisitForm/QueryResults/Premiership/MotherwellQuery";
+import RangersQuery from "../screens/VisitForm/QueryResults/Premiership/RangersQuery";
+import RossCountyQuery from "../screens/VisitForm/QueryResults/Premiership/RossCountyQuery";
+import StJohnstoneQuery from "../screens/VisitForm/QueryResults/Premiership/StJohnstoneQuery";
+import StMirrenQuery from "../screens/VisitForm/QueryResults/Premiership/StMirrenQuery";
 
 //Fixture Pages
 import PremiershipFixtures from "../screens/PremiershipFixtures";
@@ -187,6 +195,10 @@ const Main = () => {
             <MainStack.Screen name="KillieForm" component={KillieForm} />
             <MainStack.Screen name="LiviForm" component={LiviForm} />
             <MainStack.Screen name="MotherwellForm" component={MotherwellForm} />
+            <MainStack.Screen name="RangersForm" component={RangersForm} />
+            <MainStack.Screen name="RossCountyForm" component={RossCountyForm} />
+            <MainStack.Screen name="StJohnstoneForm" component={StJohnstoneForm} />
+            <MainStack.Screen name="StMirrenForm" component={StMirrenForm} />
             <MainStack.Screen name="AberdeenQuery" component={AberdeenQuery} />
             <MainStack.Screen name="CelticQuery" component={CelticQuery} />
             <MainStack.Screen name="DundeeUnitedQuery" component={DundeeUnitedQuery} />
@@ -195,6 +207,10 @@ const Main = () => {
             <MainStack.Screen name="KillieQuery" component={KillieQuery} />
             <MainStack.Screen name="LiviQuery" component={LiviQuery} />
             <MainStack.Screen name="MotherwellQuery" component={MotherwellQuery} />
+            <MainStack.Screen name="RangersQuery" component={RangersQuery} />
+            <MainStack.Screen name="RossCountyQuery" component={RossCountyQuery} />
+            <MainStack.Screen name="StJohnstoneQuery" component={StJohnstoneQuery} />
+            <MainStack.Screen name="StMirrenQuery" component={StMirrenQuery} />
             <MainStack.Screen name="PremiershipFixtures" component={PremiershipFixtures} />
             <MainStack.Screen name="ChampionshipFixtures" component={ChampionshipFixtures} />
             <MainStack.Screen name="LeagueOneFixtures" component={LeagueOneFixtures} />

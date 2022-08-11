@@ -13,13 +13,11 @@ export default function MotherwellForm({navigation}) {
     const [date, setDate] = useState("");
     const [result, setResult] = useState("");
     const [scorers, setScorers] = useState("");
-
-    const image=require("../../../../assets/club-badges/motherwell.png");
     
     function create() {
 
-        // add data to Motherwell collection
-        addDoc(collection(db, "motherwell"), {
+        // add data to Ross County collection
+        addDoc(collection(db, "ross-county"), {
             visit: visit,
             fixture: fixture,
             competition: competition,
@@ -41,7 +39,7 @@ export default function MotherwellForm({navigation}) {
     return (
         <Layout>
             <TopNav
-                middleContent="Motherwell Visit Submission"
+                middleContent="Ross County Visit Submission"
                 leftContent={
                     <Ionicons
                         name="chevron-back"
