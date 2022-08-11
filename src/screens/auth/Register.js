@@ -79,7 +79,7 @@ export default function ({ navigation }) {
                   color: '#800000',
                 }}
               >
-                Please Register!
+                Sign Up Now!
               </Text>
               <Text>Email Address:</Text>
               <TextInput

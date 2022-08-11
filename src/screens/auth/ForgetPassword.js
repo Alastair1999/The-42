@@ -76,9 +76,9 @@ export default function ({ navigation }) {
                   padding: 30,
                 }}
               >
-                Forgotten Password?
+                Forgot Your Password?
               </Text>
-              <Text>Email</Text>
+              <Text>Email Address:</Text>
               <TextInput
                 containerStyle={{ marginTop: 15 }}
                 placeholder="Please enter your email"
@@ -109,7 +109,7 @@ export default function ({ navigation }) {
                   justifyContent: "center",
                 }}
               >
-                <Text size="md">Already have an account?</Text>
+                <Text size="md">Remembered your password?</Text>
                 <TouchableOpacity
                   onPress={() => {
                     navigation.navigate("Login");
