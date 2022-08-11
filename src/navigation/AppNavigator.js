@@ -48,7 +48,7 @@ import Alloa from "../screens/teams/League-One/Alloa";
 import Clyde from "../screens/teams/League-One/Clyde";
 import Dunfermline from "../screens/teams/League-One/Dunfermline";
 import Falkirk from "../screens/teams/League-One/Falkirk";
-import FcEdinburgh from "../screens/teams/League-One/FCEdinburgh";
+import FCEdinburgh from "../screens/teams/League-One/FCEdinburgh";
 import KeltyHearts from "../screens/teams/League-One/KeltyHearts";
 import Montrose from "../screens/teams/League-One/Montrose";
 import Peterhead from "../screens/teams/League-One/Peterhead";
@@ -231,7 +231,7 @@ const Main = () => {
             <MainStack.Screen name="Clyde" component={Clyde} />
             <MainStack.Screen name="Dunfermline" component={Dunfermline} />
             <MainStack.Screen name="Falkirk" component={Falkirk} />
-            <MainStack.Screen name="FcEdinburgh" component={FcEdinburgh} />
+            <MainStack.Screen name="FCEdinburgh" component={FCEdinburgh} />
             <MainStack.Screen name="KeltyHearts" component={KeltyHearts} />
             <MainStack.Screen name="Montrose" component={Montrose} />
             <MainStack.Screen name="Peterhead" component={Peterhead} />
