@@ -138,6 +138,7 @@ import AlloaQuery from "../screens/VisitForm/QueryResults/League-One/AlloaQuery"
 import ClydeQuery from "../screens/VisitForm/QueryResults/League-One/ClydeQuery";
 import DunfermlineQuery from "../screens/VisitForm/QueryResults/League-One/DunfermlineQuery";
 import FalkirkQuery from "../screens/VisitForm/QueryResults/League-One/FalkirkQuery";
+import FcEdinburghQuery from "../screens/VisitForm/QueryResults/League-One/FcEdinburghQuery";
 import KeltyHeartsQuery from "../screens/VisitForm/QueryResults/League-One/KeltyHeartsQuery";
 import MontroseQuery from "../screens/VisitForm/QueryResults/League-One/MontroseQuery";
 import PeterheadQuery from "../screens/VisitForm/QueryResults/League-One/PeterheadQuery";
@@ -315,6 +316,7 @@ const Main = () => {
             <MainStack.Screen name="ClydeQuery" component={ClydeQuery} />
             <MainStack.Screen name="DunfermlineQuery" component={DunfermlineQuery} />
             <MainStack.Screen name="FalkirkQuery" component={FalkirkQuery} />
+            <MainStack.Screen name="FcEdinburghQuery" component={FcEdinburghQuery} />
             <MainStack.Screen name="KeltyHeartsQuery" component={KeltyHeartsQuery} />
             <MainStack.Screen name="MontroseQuery" component={MontroseQuery} />
             <MainStack.Screen name="PeterheadQuery" component={PeterheadQuery} />
