@@ -16,8 +16,8 @@ export default function MotherwellForm({navigation}) {
     
     function create() {
 
-        // add data to Greenock Morton collection
-        addDoc(collection(db, "greenock-morton"), {
+        // add data to Queen of the South collection
+        addDoc(collection(db, "queen-of-the-south"), {
             visit: visit,
             fixture: fixture,
             competition: competition,
@@ -39,7 +39,7 @@ export default function MotherwellForm({navigation}) {
     return (
         <Layout>
             <TopNav
-                middleContent="Greenock Morton Visit Submission"
+                middleContent="Queen of the South Visit Submission"
                 leftContent={
                     <Ionicons
                         name="chevron-back"

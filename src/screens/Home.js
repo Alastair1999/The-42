@@ -66,7 +66,6 @@ export default function ({ navigation }) {
                                 longitude: -2.08889,
                             }}
                             pinColor = "red"
-                            //image ={require('../../assets/club-badges/aberdeen.png')}
                         >
                             <Image source={require("../../assets/club-badges/aberdeen.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -114,7 +113,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Airdrie");
+                                  navigation.navigate("AirdrieForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -145,7 +144,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("AlbionRovers");
+                                  navigation.navigate("AlbionRoversForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -176,7 +175,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Alloa");
+                                  navigation.navigate("AlloaForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -207,7 +206,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("AnnanAthletic");
+                                  navigation.navigate("AnnanForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -238,7 +237,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Arbroath");
+                                  navigation.navigate("ArbroathForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -269,7 +268,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("AyrUnited");
+                                  navigation.navigate("AyrForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -300,7 +299,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("BonnyriggRose");
+                                  navigation.navigate("BonnyriggRoseForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -362,7 +361,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Clyde");
+                                  navigation.navigate("ClydeForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -393,7 +392,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("CoveRangers");
+                                  navigation.navigate("CoveRangersForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -424,7 +423,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Dumbarton");
+                                  navigation.navigate("DumbartonForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -486,7 +485,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Dundee");
+                                  navigation.navigate("DundeeForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -517,7 +516,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Dunfermline");
+                                  navigation.navigate("DunfermlineForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -548,7 +547,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("EastFife");
+                                  navigation.navigate("EastFifeForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -579,7 +578,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("ElginCity");
+                                  navigation.navigate("ElginCityForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -610,7 +609,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Falkirk");
+                                  navigation.navigate("FalkirkForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -641,7 +640,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("ForfarAthletic");
+                                  navigation.navigate("ForfarForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -672,7 +671,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("GreenockMorton");
+                                  navigation.navigate("MortonForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -703,7 +702,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("HamiltonAccies");
+                                  navigation.navigate("HamiltonForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -798,7 +797,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Inverness");
+                                  navigation.navigate("InvernessForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -829,7 +828,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("KeltyHearts");
+                                  navigation.navigate("KeltyHeartsForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -922,7 +921,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Montrose");
+                                  navigation.navigate("MontroseForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -984,7 +983,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("PartickThistle");
+                                  navigation.navigate("PartickThistleForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1015,7 +1014,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Peterhead");
+                                  navigation.navigate("PeterheadForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1046,7 +1045,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("QueenOfTheSouth");
+                                  navigation.navigate("QueenOfTheSouthForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1077,7 +1076,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("QueensPark");
+                                  navigation.navigate("QueensParkForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1108,7 +1107,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("RaithRovers");
+                                  navigation.navigate("RaithRoversForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1263,7 +1262,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Stenhousemuir");
+                                  navigation.navigate("StenhousemuirForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1294,7 +1293,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("StirlingAlbion");
+                                  navigation.navigate("StirlingForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1325,7 +1324,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("Stranraer");
+                                  navigation.navigate("StranraerForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
@@ -1356,7 +1355,7 @@ export default function ({ navigation }) {
                               
                               <TouchableOpacity
                                 onPress={() => {
-                                  navigation.navigate("FcEdinburgh");
+                                  navigation.navigate("FcEdinburghForm");
                                 }}
                               >
                                 <Text>Add a submission</Text>
