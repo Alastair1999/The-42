@@ -26,48 +26,48 @@ const DATA = [
         data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
     },
     {
-        title:"Round 4",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 4 - 20/08 to 21/08",
+        data: ["Hibs vs Rangers ", "Dundee Utd vs St Mirren ", "Motherwell vs Livingston", "Ross County vs Kilmarnock", "St Johnstone vs Aberdeen", "Celtic vs Hearts"]
     },
     {
-        title:"Round 5",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 5 - 27/08 to 28/08",
+        data: ["Aberdeen vs Livingston ", "Kilmarnock vs Motherwell", "Rangers vs Ross County", "St Mirren vs Hibs", "Dundee Utd vs Celtic", "Hearts vs St Johnstone"]
     },
     {
-        title:"Round 6",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 6 - 03/09 to 04/09",
+        data: ["Celtic vs Rangers ", "Hibs vs Kilmarnock", "Motherwell vs Dundee United ", "Livingston vs Hearts", "Ross County vs Aberdeen", "St Johnstone vs St Mirren"]
     },
     {
-        title:"Round 7",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 7 - 10/09 to 11/09",
+        data: ["Aberdeen vs Rangers ", "Celtic vs Livingston ", "Dundee Utd vs Hibernian", "Ross County vs Motherwell", "Kilmarnock vs St Johnstone", "Hearts vs St Mirren"]
     },
     {
-        title:"Round 8",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 8 - 17/09 to 18/09",
+        data: ["Hibs vs Aberdeen ", "Livingston vs Kilmarnock ", "Motherwell vs Hearts", "Rangers vs Dundee Utd", "St Johnstone vs Ross County", "St Mirren vs Celtic"]
     },
     {
-        title:"Round 9",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 9 - 01/10 to 02/10",
+        data: ["Aberdeen vs Kilmarnock ", "Celtic vs Motherwell ", "St Mirren vs Livingston", "Ross County vs Hibs", "Hearts vs Rangers", "Dundee Utd vs St Johnstone"]
     },
     {
-        title:"Round 10",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 10 - 08/10 to 09/10",
+        data: ["Dundee Utd vs Aberdeen ", "Hibs vs Motherwell ", "Kilmarnock vs Hearts", "Livingston vs Ross County", "Rangers vs St Mirren", "St Johnstone vs Celtic"]
     },
     {
-        title:"Round 11",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 11 - 15/10 to 16/10",
+        data: ["Aberdeen vs Hearts ", "Celtic vs Hibs ", "Livingston vs St Johnstone", "Ross County vs Dundee Utd", "St Mirren vs Kilmarnock", "Motherwell vs Rangers"]
     },
     {
-        title:"Round 12",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 12 - 22/10 to 23/10",
+        data: ["Hearts vs Celtic ", "Hibs vs St Johnstone ", "Rangers vs Livingston", "Kilmarnock vs Ross County", "Motherwell vs Aberdeen", "St Mirren vs Dundee Utd"]
     },
     {
-        title:"Round 13",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 13 - 29/10 to 30/10",
+        data: ["St Johnstone vs Kilmarnock", "Ross County vs Hearts ", "Rangers vs Aberdeen", "Livingston vs Celtic", "Hibs vs St Mirren", "Dundee Utd vs Motherwell"]
     },
     {
-        title:"Round 14",
-        data: ["Aberdeen vs St Mirren ", "Motherwell vs Ross County ", "Rangers vs Kilmarnock", "Ross County vs Celtic", "Hibs vs Hearts", "Dundee Utd vs Livingston"]
+        title:"Round 14 - 05/11 to 06/11",
+        data: ["Aberdeen vs Hibernian", "Hearts vs Motherwell", "Ross County vs St Mirren ", "St Johnstone vs Rangers", "Ross County vs Celtic", "Celtic vs Dundee Utd"]
     },
     {
         title:"Round 15",
@@ -196,7 +196,6 @@ const styles = StyleSheet.create({
     header: {
         fontSize: 26,
         backgroundColor: 'white',
-        //padding: 15,
         marginVertical: 10,
     },
 
