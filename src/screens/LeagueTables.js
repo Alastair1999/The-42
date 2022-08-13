@@ -42,7 +42,7 @@ const content = {
         ['RRFC', '0', '0', '0', '0', '0', '0', '0', '0'],
     ]
 };
-
+/// displays data for all of the 4 league tables
 export default function LeagueTables(navigation){
     return (
         <Layout>

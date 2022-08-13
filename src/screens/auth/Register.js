@@ -28,15 +28,14 @@ export default function ({ navigation }) {
       await createUserWithEmailAndPassword(auth, email, password).catch(function (
         error
       ) {
-        // Handle Errors here.
         var errorCode = error.code;
         var errorMessage = error.message;
-        // ...
         setLoading(false);
         alert(errorMessage);
       });
     }
-  
+
+  {/* Allows the user to register or return to the sign in page*/}
     return (
       <KeyboardAvoidingView behavior="height" enabled style={{ flex: 1 }}>
         <Layout>

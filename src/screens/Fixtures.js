@@ -9,8 +9,6 @@ TouchableOpacity,
 }from "react-native";
 import { TopNav, Layout } from "react-native-rapi-ui";
 import { Ionicons } from "@expo/vector-icons";
-import MapView, { Callout, Marker } from "react-native-maps";
-
 
 export default function ({ navigation }) {
     return (
@@ -26,6 +24,7 @@ export default function ({ navigation }) {
                   leftAction={() => navigation.goBack()}
             />
             <ScrollView contentContainerStyle style={styles.scroller}>
+                {/* Adding buttons to select specific leagues */}
                 <View style={styles.container}>
                     <Text style={styles.header}> Select a league to view fixtures</Text>
 
@@ -104,10 +103,6 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#fff',
       alignItems: 'center',
-      //justifyContent: 'center',
-      //justifyContent:'space-evenly'
-      //height: 1000
-
     },
 
     header: {
@@ -120,7 +115,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         padding: 40,
         justifyContent: 'space-evenly',
-        //flex: 1,
     },
 
     button: {
@@ -143,5 +137,4 @@ const styles = StyleSheet.create({
         height: 38,
         width: 35,
     }
-
   });

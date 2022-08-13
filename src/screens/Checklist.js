@@ -89,6 +89,7 @@ export default function ({ navigation }) {
       />
       <View style={styles.container}>
         <ScrollView>
+          {/* Adding a checkbox and a text hyperlink to each club */}
           <View style={{
             alignItems: "center",
             justifyContent: "center",
@@ -707,7 +708,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 40,
-    //backgroundColor: 'red',
     justifyContent: 'space-around',
     backgroundColor: 'fff',
   },

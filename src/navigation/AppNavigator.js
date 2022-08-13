@@ -4,13 +4,13 @@ import {NavigationContainer} from "@react-navigation/native";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import { AuthContext } from "../provider/AuthProvider";
 
-//Main Pages
+//Main Pages Imports
 import Home from "../screens/Home";
 import Checklist from "../screens/Checklist";
 import LeagueTables from "../screens/LeagueTables";
 import Fixtures from "../screens/Fixtures";
 
-//Auth Pages
+//Auth Pages Imports
 import Login from "../screens/auth/Login";
 import ForgetPassword from "../screens/auth/ForgetPassword";
 import Register from "../screens/auth/Register";
@@ -66,7 +66,7 @@ import Stenhousemuir from "../screens/teams/League-Two/Stenhousemuir";
 import StirlingAlbion from "../screens/teams/League-Two/StirlingAlbion";
 import Stranraer from "../screens/teams/League-Two/Stranraer";
 
-//Form Pages
+//Form Pages Imports
 import AberdeenForm from "../screens/VisitForm/Premiership/AberdeenForm";
 import CelticForm from "../screens/VisitForm/Premiership/CelticForm";
 import DundeeUnitedForm from "../screens/VisitForm/Premiership/DundeeUnitedForm";
@@ -110,7 +110,7 @@ import StenhousemuirForm from "../screens/VisitForm/League-Two/StenhousemuirForm
 import StirlingForm from "../screens/VisitForm/League-Two/StirlingForm";
 import StranraerForm from "../screens/VisitForm/League-Two/StranraerForm";
 
-//Query Pages
+//Query Pages Imports
 import AberdeenQuery from "../screens/VisitForm/QueryResults/Premiership/AberdeenQuery";
 import CelticQuery from "../screens/VisitForm/QueryResults/Premiership/CelticQuery";
 import DundeeUnitedQuery from "../screens/VisitForm/QueryResults/Premiership/DundeeUnitedQuery";
@@ -154,14 +154,14 @@ import StenhousemuirQuery from "../screens/VisitForm/QueryResults/League-Two/Ste
 import StirlingQuery from "../screens/VisitForm/QueryResults/League-Two/StirlingQuery";
 import StranraerQuery from "../screens/VisitForm/QueryResults/League-Two/StranraerQuery";
 
-//Fixture Pages
+//Fixture Pages Imports
 import PremiershipFixtures from "../screens/PremiershipFixtures";
 import ChampionshipFixtures from "../screens/ChampionshipFixtures";
 import LeagueOneFixtures from "../screens/LeagueOneFixtures";
 import LeagueTwoFixtures from "../screens/LeagueTwoFixtures";
 
 
-//Bottom Tab Navigation Bar
+//Bottom Tab Navigation Bar Imports
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import {themeColor, useTheme} from "react-native-rapi-ui";
 import BottomNavBarIcon from "../components/BottomNavBarIcon";
@@ -334,13 +334,11 @@ const Main = () => {
             <MainStack.Screen name="PremiershipFixtures" component={PremiershipFixtures} />
             <MainStack.Screen name="ChampionshipFixtures" component={ChampionshipFixtures} />
             <MainStack.Screen name="LeagueOneFixtures" component={LeagueOneFixtures} />
-            <MainStack.Screen name="LeagueTwoFixtures" component={LeagueTwoFixtures} />
-
-            
+            <MainStack.Screen name="LeagueTwoFixtures" component={LeagueTwoFixtures} />  
         </MainStack.Navigator>
     );
 };
-
+/// the bottom navigation bar
 const Tabs = createBottomTabNavigator();
 const MainTabs = () => {
     const {isDarkmode} = useTheme();

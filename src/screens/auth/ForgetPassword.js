@@ -35,6 +35,7 @@ export default function ({ navigation }) {
           alert(error);
         });
     }
+    {/* User enters email to reset password by pressing button */}
     return (
       <KeyboardAvoidingView behavior="height" enabled style={{ flex: 1 }}>
         <Layout>
