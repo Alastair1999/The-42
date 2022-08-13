@@ -41,6 +41,7 @@ export default function ({ navigation }) {
           name={"log-out"}
           size={24}
           color={isDarkmode ? themeColor.white100 : themeColor.dark}
+          testID="signOutButton"
           />
         }
         leftAction={() => {
@@ -51,6 +52,7 @@ export default function ({ navigation }) {
       />
       <ScrollView>
       <SafeAreaView style={styles.container}>
+        {/*Badges are added to the map and can be clicked on to take the user to 2 possible pages*/}
         <View>
                     <MapView style={styles.map} 
                     initialRegion ={{
@@ -96,7 +98,6 @@ export default function ({ navigation }) {
                                 longitude: -3.9597528,
                             }}
                             pinColor = "red"
-                            //image ={require('../../assets/club-badges/.png')}
                         >
                             <Image source={require("../../assets/club-badges/airdrie.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -127,7 +128,6 @@ export default function ({ navigation }) {
                                 longitude: -4.01139,
                             }}
                             pinColor = "yellow"
-                            //image ={require('../../assets/club-badges/albion-rovers.png')}
                         >
                             <Image source={require("../../assets/club-badges/albion-rovers.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -158,7 +158,6 @@ export default function ({ navigation }) {
                                 longitude: -3.7786417,
                             }}
                             pinColor = "orange"
-                            //image ={require('../../assets/club-badges/alloa.png')}
                         >
                             <Image source={require("../../assets/club-badges/alloa.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -189,7 +188,6 @@ export default function ({ navigation }) {
                                 longitude: -3.2613,
                             }}
                             pinColor = "yellow"
-                            //image ={require('../../assets/club-badges/annan-athletic.png')}
                         >
                             <Image source={require("../../assets/club-badges/annan-athletic.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -220,7 +218,6 @@ export default function ({ navigation }) {
                                 longitude: -2.5915194,
                             }}
                             pinColor = "#800000"
-                            //image ={require('../../assets/club-badges/arbroath.png')}
                         >
                             <Image source={require("../../assets/club-badges/arbroath.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -251,7 +248,6 @@ export default function ({ navigation }) {
                                 longitude: -4.6200,
                             }}
                             pinColor = "white"
-                            //image ={require('../../assets/club-badges/ayr.png')}
                         >
                             <Image source={require("../../assets/club-badges/ayr.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -282,7 +278,6 @@ export default function ({ navigation }) {
                                 longitude: -3.10333,
                             }}
                             pinColor = "red"
-                            //image ={require('../../assets/club-badges/bonnyrigg-rose.png')}
                         >
                             <Image source={require("../../assets/club-badges/bonnyrigg-rose.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -313,7 +308,6 @@ export default function ({ navigation }) {
                                 longitude: -4.2055,
                             }}
                             pinColor = "green"
-                            //image ={require('../../assets/club-badges/celtic.png')}
                         >
                             <Image source={require("../../assets/club-badges/celtic.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -344,7 +338,6 @@ export default function ({ navigation }) {
                                 longitude: -4.0376,
                             }}
                             pinColor = "red"
-                            //image ={require('../../assets/club-badges/clyde.png')}
                         >
                             <Image source={require("../../assets/club-badges/clyde.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -375,7 +368,6 @@ export default function ({ navigation }) {
                                 longitude: -2.09660,
                             }}
                             pinColor = "blue"
-                            //image ={require('../../assets/club-badges/cove-rangers.png')}
                         >
                             <Image source={require("../../assets/club-badges/cove-rangers.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -406,7 +398,6 @@ export default function ({ navigation }) {
                                 longitude: -4.5619,
                             }}
                             pinColor = "yellow"
-                            //image ={require('../../assets/club-badges/dumbarton.png')}
                         >
                             <Image source={require("../../assets/club-badges/dumbarton.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -437,7 +428,6 @@ export default function ({ navigation }) {
                                 longitude: -2.9690,
                             }}
                             pinColor = "orange"
-                            //image ={require('../../assets/club-badges/dundee-united.png')}
                         >
                             <Image source={require("../../assets/club-badges/dundee-united.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -468,7 +458,6 @@ export default function ({ navigation }) {
                                 longitude: -2.9722,
                             }}
                             pinColor = "#1a315a"
-                            //image ={require('../../assets/club-badges/dundee.png')}
                         >
                             <Image source={require("../../assets/club-badges/dundee.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -499,7 +488,6 @@ export default function ({ navigation }) {
                                 longitude: -3.4414,
                             }}
                             pinColor = "black"
-                            //image ={require('../../assets/club-badges/dunfermline.png')}
                         >
                             <Image source={require("../../assets/club-badges/dunfermline.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -530,7 +518,6 @@ export default function ({ navigation }) {
                                 longitude: -2.9994,
                             }}
                             pinColor = "yellow"
-                            //image ={require('../../assets/club-badges/east-fife.png')}
                         >
                             <Image source={require("../../assets/club-badges/east-fife.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -561,7 +548,6 @@ export default function ({ navigation }) {
                                 longitude: -3.3208,
                             }}
                             pinColor = "black"
-                            //image ={require('../../assets/club-badges/elgin-city.png')}
                         >
                             <Image source={require("../../assets/club-badges/elgin-city.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -592,7 +578,6 @@ export default function ({ navigation }) {
                                 longitude: -3.7526,
                             }}
                             pinColor = "black"
-                            //image ={require('../../assets/club-badges/falkirk.png')}
                         >
                             <Image source={require("../../assets/club-badges/falkirk.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -623,7 +608,6 @@ export default function ({ navigation }) {
                                 longitude: -2.8849,
                             }}
                             pinColor = "#ADD8E6"
-                            //image ={require('../../assets/club-badges/forfar-athletic.png')}
                         >
                             <Image source={require("../../assets/club-badges/forfar-athletic.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -654,7 +638,6 @@ export default function ({ navigation }) {
                                 longitude: -4.7268111,
                             }}
                             pinColor = "white"
-                            //image ={require('../../assets/club-badges/greenock-morton.png')}
                         >
                             <Image source={require("../../assets/club-badges/greenock-morton.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -685,7 +668,6 @@ export default function ({ navigation }) {
                                 longitude: -4.0584,
                             }}
                             pinColor = "red"
-                            //image ={require('../../assets/club-badges/hamilton.png')}
                         >
                             <Image source={require("../../assets/club-badges/hamilton.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -717,7 +699,6 @@ export default function ({ navigation }) {
                                 longitude: -3.23222,
                             }}
                             pinColor = "#800000"
-                            //image= {require('../../assets/club-badges/hearts.png')} style={{width: 35, height: 35}}
                         >
                             <Image source={require("../../assets/club-badges/hearts.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -748,7 +729,6 @@ export default function ({ navigation }) {
                                 longitude: -3.16556,
                             }}
                             pinColor = "green"
-                            //image ={require('../../assets/club-badges/hibernian.png')}
                         >
                             <Image source={require("../../assets/club-badges/hibernian.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -779,7 +759,6 @@ export default function ({ navigation }) {
                                 longitude: -4.2167,
                             }}
                             pinColor = "blue"
-                            //image ={require('../../assets/club-badges/inverness.png')}
                         >
                             
                             <Image source={require("../../assets/club-badges/inverness.png")} style={{height: 25, width: 25}}/>
@@ -811,7 +790,6 @@ export default function ({ navigation }) {
                                 longitude: -3.37868280709,
                             }}
                             pinColor = "#800000"
-                            //image ={require('../../assets/club-badges/kelty-hearts.png')}
                         >
                             <Image source={require("../../assets/club-badges/kelty-hearts.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -842,7 +820,6 @@ export default function ({ navigation }) {
                                 longitude: -4.50487131384,
                             }}
                             pinColor = "#0e00f7"
-                            //image ={require('../../assets/club-badges/kilmarnock.png')}
                         >
                             <Image source={require("../../assets/club-badges/kilmarnock.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -873,7 +850,6 @@ export default function ({ navigation }) {
                                 longitude: -3.52283,
                             }}
                             pinColor = "#ffcc00"
-                            //image ={require('../../assets/club-badges/livingston.png')}
                         >
                             <Image source={require("../../assets/club-badges/livingston.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -904,7 +880,6 @@ export default function ({ navigation }) {
                                 longitude: -2.4601,
                             }}
                             pinColor = "blue"
-                            //image ={require('../../assets/club-badges/montrose.png')}
                         >
                             <Image source={require("../../assets/club-badges/montrose.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -935,7 +910,6 @@ export default function ({ navigation }) {
                                 longitude: -3.9811,
                             }}
                             pinColor = "#fbba2d"
-                            //image ={require('../../assets/club-badges/motherwell.png')}
                         >
                             <Image source={require("../../assets/club-badges/motherwell.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -966,7 +940,6 @@ export default function ({ navigation }) {
                                 longitude: -4.2695,
                             }}
                             pinColor = "yellow"
-                            //image ={require('../../assets/club-badges/partick-thistle.png')}
                         >
                             <Image source={require("../../assets/club-badges/partick-thistle.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -997,7 +970,6 @@ export default function ({ navigation }) {
                                 longitude: -1.7958472,
                             }}
                             pinColor = "blue"
-                            //image ={require('../../assets/club-badges/peterhead.png')}
                         >
                             <Image source={require("../../assets/club-badges/peterhead.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1028,7 +1000,6 @@ export default function ({ navigation }) {
                                 longitude: -3.6263,
                             }}
                             pinColor = "blue"
-                            //image ={require('../../assets/club-badges/queen-of-the-south.png')}
                         >
                             <Image source={require("../../assets/club-badges/queen-of-the-south.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1059,7 +1030,6 @@ export default function ({ navigation }) {
                                 longitude: -4.2562,
                             }}
                             pinColor = "black"
-                            //image ={require('../../assets/club-badges/queens-park.png')}
                         >
                             <Image source={require("../../assets/club-badges/queens-park.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1090,7 +1060,6 @@ export default function ({ navigation }) {
                                 longitude: -3.16823856859,
                             }}
                             pinColor = "#02075d"
-                            //image ={require('../../assets/club-badges/raith-rovers.png')}
                         >
                             <Image source={require("../../assets/club-badges/raith-rovers.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1121,7 +1090,6 @@ export default function ({ navigation }) {
                                 longitude: -4.3093,
                             }}
                             pinColor = "#1b458f"
-                            //image ={require('../../assets/club-badges/rangers.png')}
                         >
                             <Image source={require("../../assets/club-badges/rangers.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1152,12 +1120,12 @@ export default function ({ navigation }) {
                                 longitude: -4.41998004913,
                             }}
                             pinColor = "#040957"
-                            //image ={require('../../assets/club-badges/ross-county.png')}
                         >
                             <Image source={require("../../assets/club-badges/ross-county.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
                                 <Text style={styles.calloutTitle}>Ross County {"\n"}</Text>
                             <TouchableOpacity
+                            testID="rossCountyOpacity1"
                                 onPress={() => {
                                   navigation.navigate("RossCounty");
                                 }}
@@ -1168,6 +1136,7 @@ export default function ({ navigation }) {
                               </TouchableOpacity>
                               
                               <TouchableOpacity
+                              testID="rossCountyOpacity"
                                 onPress={() => {
                                   navigation.navigate("RossCountyForm");
                                 }}
@@ -1183,7 +1152,6 @@ export default function ({ navigation }) {
                                 longitude: -3.4769278,
                             }}
                             pinColor = "#243f90"
-                            //image ={require('../../assets/club-badges/st-johnstone.png')}
                         >
                             <Image source={require("../../assets/club-badges/st-johnstone.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1214,7 +1182,6 @@ export default function ({ navigation }) {
                                 longitude: -4.4436,
                             }}
                             pinColor = "white"
-                            //image ={require('../../assets/club-badges/st-mirren.png')}
                         >
                             <Image source={require("../../assets/club-badges/st-mirren.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1245,7 +1212,6 @@ export default function ({ navigation }) {
                                 longitude: -3.8146,
                             }}
                             pinColor = "#893f45"
-                            //image ={require('../../assets/club-badges/stenhousemuir.png')}
                         >
                             <Image source={require("../../assets/club-badges/stenhousemuir.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1276,7 +1242,6 @@ export default function ({ navigation }) {
                                 longitude: -3.9129,
                             }}
                             pinColor = "red"
-                            //image ={require('../../assets/club-badges/stirling-albion.png')}
                         >
                             <Image source={require("../../assets/club-badges/stirling-albion.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1307,7 +1272,6 @@ export default function ({ navigation }) {
                                 longitude: -5.0129,
                             }}
                             pinColor = "blue"
-                            //image ={require('../../assets/club-badges/stranraer.png')}
                         >
                             <Image source={require("../../assets/club-badges/stranraer.png")} style={{height: 25, width: 25}}/>
                             <Callout style={styles.calloutStyle}>
@@ -1339,7 +1303,6 @@ export default function ({ navigation }) {
                                 longitude: -3.15861,
                             }}
                             pinColor = "white"
-                            //image ={require('../../assets/club-badges/hearts.png')}
                         >
                             <Callout style={styles.calloutStyle}>
                                 <Text style={styles.calloutTitle}>F.C. Edinburgh {"\n"}</Text>
@@ -1372,15 +1335,11 @@ export default function ({ navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    //flex: 1,
     backgroundColor: '#fff',
-    //alignItems: 'center',
     justifyContent: 'center',
   },
 
   map: {
-      //width: 500,
-      //height: 500.
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height,
   },
@@ -1400,5 +1359,4 @@ const styles = StyleSheet.create({
     textDecorationLine: "underline",
     fontSize: 18,
   }
-
 });

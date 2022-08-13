@@ -143,6 +143,7 @@ export default function ({ navigation }) {
             </View>
             <View style={styles.checkboxStyle}>
               <Text
+              testID="heartsOpacity"
               onPress={() => {
                 navigation.navigate("HeartOfMidlothian");
               }}

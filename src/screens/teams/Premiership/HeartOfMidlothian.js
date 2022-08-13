@@ -100,6 +100,7 @@ export default function HeartOfMidlothian ({ navigation }) {
 
                     <View style={{padding:16, borderBottomWidth:1,}}>
                         <TouchableOpacity
+                        testID="viewSubmissionOpacity"
                                 onPress={() => {
                                   navigation.navigate("HeartsQuery");
                                 }}

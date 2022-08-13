@@ -1,0 +1,403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+  style={
+    Array [
+      undefined,
+      Object {
+        "backgroundColor": "#f7f7f7",
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderBottomWidth": 1,
+        "borderColor": "#c0c0c0",
+        "flexDirection": "row",
+        "height": 64,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <Text />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 4,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+          }
+        }
+      >
+        <Text
+          fontWeight="bold"
+          size="lg"
+          style={
+            Object {
+              "color": "#050505",
+              "fontFamily": "Ubuntu_700Bold",
+              "fontSize": 16,
+            }
+          }
+        >
+          Fixtures
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "justifyContent": "center",
+            "paddingHorizontal": 20,
+          }
+        }
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={true}
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 20,
+              "paddingBottom": 15,
+              "paddingTop": 15,
+            }
+          }
+        >
+           Select a league to view fixtures
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+              "padding": 40,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 250,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "textAlign": "center",
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Cinch Premiership
+            </Text>
+            <Image
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 38,
+                  "width": 35,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+              "padding": 40,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 250,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "textAlign": "center",
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Cinch Championship
+            </Text>
+            <Image
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 38,
+                  "width": 35,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+              "padding": 40,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 250,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "textAlign": "center",
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Cinch League One
+            </Text>
+            <Image
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 38,
+                  "width": 35,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+              "padding": 40,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "red",
+                "borderRadius": 10,
+                "flexDirection": "row",
+                "height": 60,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 250,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "textAlign": "center",
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Cinch League Two
+            </Text>
+            <Image
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 38,
+                  "width": 35,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

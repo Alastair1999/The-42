@@ -31,6 +31,7 @@ export default function ({ navigation }) {
 
                     <View style={styles.opacityFormat}>
                         <TouchableOpacity
+                        testID="premiershipOpacity"
                             style={styles.button}
                             onPress={() => {
                                 navigation.navigate("PremiershipFixtures");
@@ -44,6 +45,7 @@ export default function ({ navigation }) {
                     </View>
                     <View style={styles.opacityFormat}>
                     <TouchableOpacity
+                    testID="championshipOpacity"
                             style={styles.button}
                             onPress={() => {
                                 navigation.navigate("ChampionshipFixtures");
@@ -58,6 +60,7 @@ export default function ({ navigation }) {
                     
                     <View style={styles.opacityFormat}>
                     <TouchableOpacity
+                    testID="leagueOneOpacity"
                             style={styles.button}
                             onPress={() => {
                                 navigation.navigate("LeagueOneFixtures");
@@ -72,6 +75,7 @@ export default function ({ navigation }) {
 
                     <View style={styles.opacityFormat}>
                     <TouchableOpacity
+                    testID="leagueTwoOpacity"
                             style={styles.button}
                             onPress={() => {
                                 navigation.navigate("LeagueTwoFixtures");

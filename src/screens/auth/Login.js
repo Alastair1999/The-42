@@ -118,6 +118,7 @@ export default function ({ navigation }) {
               <Button
                 text={loading ? "Loading" : "Sign In"}
                 color="#800000"
+                testID="loginButton"
                 onPress={() => {
                   login();
                 }}
@@ -137,6 +138,7 @@ export default function ({ navigation }) {
               >
                 <Text size="md">Don't have an account?</Text>
                 <TouchableOpacity
+                testID="registerOpacity"
                   onPress={() => {
                     navigation.navigate("Register");
                   }}
@@ -162,6 +164,7 @@ export default function ({ navigation }) {
                 }}
               >
                 <TouchableOpacity
+                testID="forgotPasswordOpacity"
                   onPress={() => {
                     navigation.navigate("ForgetPassword");
                   }}
